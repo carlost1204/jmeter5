@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.control.TestLoopController" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:44" hostname="DESKTOP-E34GR96" time="0.026">
+  <properties/>
+  <testcase name="testInfiniteLoop()" classname="org.apache.jmeter.control.TestLoopController" time="0.001"/>
+  <testcase name="testBug54467()" classname="org.apache.jmeter.control.TestLoopController" time="0.022"/>
+  <testcase name="testProcessing()" classname="org.apache.jmeter.control.TestLoopController" time="0.002"/>
+  <testcase name="testLoopZeroTimes()" classname="org.apache.jmeter.control.TestLoopController" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

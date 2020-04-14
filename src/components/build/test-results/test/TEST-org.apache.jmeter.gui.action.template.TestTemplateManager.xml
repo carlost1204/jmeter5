@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.gui.action.template.TestTemplateManager" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:45" hostname="DESKTOP-E34GR96" time="1.644">
+  <properties/>
+  <testcase name="testSameButParamsTemplatesAreNotEqual()" classname="org.apache.jmeter.gui.action.template.TestTemplateManager" time="0.068"/>
+  <testcase name="testDifferentTemplatesAreNotEqual()" classname="org.apache.jmeter.gui.action.template.TestTemplateManager" time="0.009"/>
+  <testcase name="testValidTemplateFile()" classname="org.apache.jmeter.gui.action.template.TestTemplateManager" time="0.007"/>
+  <testcase name="testSameTemplatesAreEqual()" classname="org.apache.jmeter.gui.action.template.TestTemplateManager" time="0.01"/>
+  <testcase name="testInvalidTemplateXml()" classname="org.apache.jmeter.gui.action.template.TestTemplateManager" time="0.021"/>
+  <testcase name="equalsHashCode()" classname="org.apache.jmeter.gui.action.template.TestTemplateManager" time="1.514"/>
+  <testcase name="testNonExistantXmlFileThrowsFileNotFoundException()" classname="org.apache.jmeter.gui.action.template.TestTemplateManager" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

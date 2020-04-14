@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.report.core.SampleMetadataParserSpec" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:54" hostname="DESKTOP-E34GR96" time="0.066">
+  <properties/>
+  <testcase name="Parse headers (a;b;c;d;e) with separator (;) and get ([a, b, c, d, e])" classname="org.apache.jmeter.report.core.SampleMetadataParserSpec" time="0.042"/>
+  <testcase name="Parse headers (a|b|c|d|e) with separator (|) and get ([a, b, c, d, e])" classname="org.apache.jmeter.report.core.SampleMetadataParserSpec" time="0.0"/>
+  <testcase name="Parse headers (aa|bb|cc|dd|eef) with separator (|) and get ([aa, bb, cc, dd, eef])" classname="org.apache.jmeter.report.core.SampleMetadataParserSpec" time="0.001"/>
+  <testcase name="Parse headers (a&amp;b&amp;c&amp;d&amp;e) with separator (&amp;) and get ([a, b, c, d, e])" classname="org.apache.jmeter.report.core.SampleMetadataParserSpec" time="0.0"/>
+  <testcase name="Parse headers (a&#9;b c&#9;d&#9;e) with separator (&#9;) and get ([a, b c, d, e])" classname="org.apache.jmeter.report.core.SampleMetadataParserSpec" time="0.001"/>
+  <testcase name="Parse headers (abcdef) with separator (,) and get ([abcdef])" classname="org.apache.jmeter.report.core.SampleMetadataParserSpec" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

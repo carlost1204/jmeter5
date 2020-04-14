@@ -1,0 +1,833 @@
+2020-04-13 01:22:39,452 INFO o.a.j.u.JMeterUtils: Setting Locale to pt_BR
+2020-04-13 01:22:42,289 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2020-04-13 01:22:42,338 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-04-13 01:22:42,338 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-04-13 01:22:42,339 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-04-13 01:22:42,339 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-04-13 01:22:42,682 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:22:42,683 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:22:42,686 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:22:42,687 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:22:42,687 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-04-13 01:22:42,688 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-04-13 01:22:43,239 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2020-04-13 01:22:43,383 ERROR o.a.j.p.h.g.a.ParseCurlCommandAction: File test1.txt doesn't exist
+2020-04-13 01:22:43,637 ERROR o.a.j.p.h.g.a.ParseCurlCommandAction: Error creating test plan from line 1 of file, command:curl 'http://jmeter.apache.org/' --max-redir 'b', error:Unexpected format for command line:curl 'http://jmeter.apache.org/' --max-redir 'b', error:Unknown option --max-redir
+java.lang.IllegalArgumentException: Unexpected format for command line:curl 'http://jmeter.apache.org/' --max-redir 'b', error:Unknown option --max-redir
+	at org.apache.jmeter.protocol.http.curl.BasicCurlParser.parse(BasicCurlParser.java:796) ~[main/:?]
+	at org.apache.jmeter.protocol.http.gui.action.ParseCurlCommandAction.parseCommands(ParseCurlCommandAction.java:663) ~[main/:?]
+	at org.apache.jmeter.gui.action.ParseCurlCommandActionTest.lambda$testParseCommandsException2$1(ParseCurlCommandActionTest.java:174) ~[test/:?]
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:55) ~[junit-jupiter-api-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37) ~[junit-jupiter-api-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:2952) ~[junit-jupiter-api-5.5.1.jar:5.5.1]
+	at org.apache.jmeter.gui.action.ParseCurlCommandActionTest.assertThrowsIllegalArgument(ParseCurlCommandActionTest.java:165) ~[test/:?]
+	at org.apache.jmeter.gui.action.ParseCurlCommandActionTest.testParseCommandsException2(ParseCurlCommandActionTest.java:174) ~[test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675) ~[junit-platform-commons-1.5.1.jar:1.5.1]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutInvocation.proceed(TimeoutInvocation.java:46) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:171) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.executeNonConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:141) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:121) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:171) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.executeNonConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:141) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:121) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) [junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) [junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:171) [junit-platform-engine-1.5.1.jar:1.5.1]
+	at java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:189) [?:1.8.0_221]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_221]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_221]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_221]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_221]
+2020-04-13 01:22:43,670 INFO o.a.j.p.h.g.a.ParseCurlCommandAction: Parsed CURL command curl 'http://jmeter.apache.org/' --max-redirs 'b' into Request [compressed=false, url=http://jmeter.apache.org/, method=GET, headers={}]
+2020-04-13 01:22:43,671 INFO o.a.j.p.h.g.a.ParseCurlCommandAction: Parsed CURL command curl 'http://jmeter.apache.org/' --include --keepalive-time '20' into Request [compressed=false, url=http://jmeter.apache.org/, method=GET, headers={}]
+2020-04-13 01:22:43,671 INFO o.a.j.p.h.g.a.ParseCurlCommandAction: Parsed CURL command curl 'http://jmeter.apache.org/' --max-redirs 'b' into Request [compressed=false, url=http://jmeter.apache.org/, method=GET, headers={}]
+2020-04-13 01:22:43,671 INFO o.a.j.p.h.g.a.ParseCurlCommandAction: Parsed CURL command curl 'http://jmeter.apache.org/' --include --keepalive-time '20' into Request [compressed=false, url=http://jmeter.apache.org/, method=GET, headers={}]
+2020-04-13 01:22:43,697 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-E34GR96
+2020-04-13 01:22:43,750 ERROR o.a.j.p.h.g.a.ParseCurlCommandAction: Error creating test plan from cURL command:curl 'http://jmeter.apache.org/' --max-redir 'b', error:Unexpected format for command line:curl 'http://jmeter.apache.org/' --max-redir 'b', error:Unknown option --max-redir
+java.lang.IllegalArgumentException: Unexpected format for command line:curl 'http://jmeter.apache.org/' --max-redir 'b', error:Unknown option --max-redir
+	at org.apache.jmeter.protocol.http.curl.BasicCurlParser.parse(BasicCurlParser.java:796) ~[main/:?]
+	at org.apache.jmeter.protocol.http.gui.action.ParseCurlCommandAction.parseCommands(ParseCurlCommandAction.java:663) ~[main/:?]
+	at org.apache.jmeter.gui.action.ParseCurlCommandActionTest.lambda$testParseCommandsException$0(ParseCurlCommandActionTest.java:161) ~[test/:?]
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:55) ~[junit-jupiter-api-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37) ~[junit-jupiter-api-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:2952) ~[junit-jupiter-api-5.5.1.jar:5.5.1]
+	at org.apache.jmeter.gui.action.ParseCurlCommandActionTest.assertThrowsIllegalArgument(ParseCurlCommandActionTest.java:165) ~[test/:?]
+	at org.apache.jmeter.gui.action.ParseCurlCommandActionTest.testParseCommandsException(ParseCurlCommandActionTest.java:161) ~[test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675) ~[junit-platform-commons-1.5.1.jar:1.5.1]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutInvocation.proceed(TimeoutInvocation.java:46) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:171) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.executeNonConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:141) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:121) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:171) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.executeNonConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:141) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:121) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) [junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) [junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:171) [junit-platform-engine-1.5.1.jar:1.5.1]
+	at java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:189) [?:1.8.0_221]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_221]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_221]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_221]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_221]
+2020-04-13 01:22:45,581 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2020-04-13 01:22:45,587 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2020-04-13 01:22:45,747 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-04-13 01:22:46,996 INFO o.e.j.u.log: Logging initialized @15265ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-13 01:22:47,568 INFO o.e.j.s.Server: jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_221-b11
+2020-04-13 01:22:47,654 INFO o.e.j.s.h.ContextHandler: Started o.e.j.s.ServletContextHandler@64fc75de{/__admin,null,AVAILABLE}
+2020-04-13 01:22:47,660 INFO o.e.j.s.h.ContextHandler: Started o.e.j.s.ServletContextHandler@88384fd{/,null,AVAILABLE}
+2020-04-13 01:22:47,686 INFO o.e.j.s.AbstractConnector: Started NetworkTrafficServerConnector@28bacd02{HTTP/1.1,[http/1.1]}{0.0.0.0:55508}
+2020-04-13 01:22:47,686 INFO o.e.j.s.Server: Started @15958ms
+2020-04-13 01:22:54,139 INFO o.e.j.s.AbstractConnector: Stopped NetworkTrafficServerConnector@28bacd02{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+2020-04-13 01:22:54,142 INFO o.e.j.s.h.ContextHandler: Stopped o.e.j.s.ServletContextHandler@88384fd{/,null,UNAVAILABLE}
+2020-04-13 01:22:54,143 INFO o.e.j.s.h.ContextHandler: Stopped o.e.j.s.ServletContextHandler@64fc75de{/__admin,null,UNAVAILABLE}
+2020-04-13 01:22:54,757 INFO o.a.j.p.h.c.HC4CookieHandler: Not storing invalid cookie: <test=2;domain=.hc.apache.org> for URL http://jakarta.apache.org/ (Illegal 'domain' attribute "hc.apache.org". Domain of origin: "jakarta.apache.org")
+2020-04-13 01:22:55,511 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-04-13 01:22:55,516 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-04-13 01:22:55,526 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-04-13 01:22:55,547 INFO o.a.j.s.SaveService: Loading file: ..\..\..\.\bin\testfiles\load_bug_list.jmx
+2020-04-13 01:22:55,639 INFO o.a.j.s.SaveService: Loading file: ..\..\..\.\bin\testfiles\Load_JMeter_Page.jmx
+2020-04-13 01:22:55,711 INFO o.a.j.p.h.m.AnchorModifier: Can't apply HTML Link Parser when the previous sampler run is not an HTTP Request.
+2020-04-13 01:22:55,712 INFO o.a.j.s.SaveService: Loading file: ..\..\..\.\bin\testfiles\load_bug_list.jmx
+2020-04-13 01:22:55,720 INFO o.a.j.s.SaveService: Loading file: ..\..\..\.\bin\testfiles\Load_JMeter_Page.jmx
+2020-04-13 01:22:55,791 INFO o.a.j.s.SaveService: Loading file: ..\..\..\.\bin\testfiles\load_bug_list.jmx
+2020-04-13 01:22:55,798 INFO o.a.j.s.SaveService: Loading file: ..\..\..\.\bin\testfiles\Load_JMeter_Page.jmx
+2020-04-13 01:22:55,811 INFO o.a.j.p.h.m.AnchorModifier: Can't apply HTML Link Parser when the previous sampler run is not an HTTP Request.
+2020-04-13 01:22:55,816 INFO o.a.j.p.h.m.AnchorModifier: Can't apply HTML Link Parser when the previous sampler run is not an HTTP Request.
+2020-04-13 01:22:55,843 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.NotReusableParser
+2020-04-13 01:22:55,843 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.NotReusableParser
+2020-04-13 01:22:55,844 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.ReusableParser
+2020-04-13 01:22:56,858 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:19] starting at token ' ' until [1:249] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "\"introjspulse\"" <STRING1>
+    at line 1, column 20.
+
+Was expecting:
+
+    <IDENT>
+)
+2020-04-13 01:22:57,499 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2020-04-13 01:22:57,501 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\http\..\..\..\.\bin\proxyserver.jks
+2020-04-13 01:22:57,625 INFO o.e.j.s.Server: jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_221-b11
+2020-04-13 01:22:57,630 INFO o.e.j.s.h.ContextHandler: Started o.e.j.s.ServletContextHandler@55fa2582{/__admin,null,AVAILABLE}
+2020-04-13 01:22:57,632 INFO o.e.j.s.h.ContextHandler: Started o.e.j.s.ServletContextHandler@3e008a54{/,null,AVAILABLE}
+2020-04-13 01:22:57,643 INFO o.e.j.s.AbstractConnector: Started NetworkTrafficServerConnector@21e94b31{HTTP/1.1,[http/1.1]}{0.0.0.0:55533}
+2020-04-13 01:22:57,644 INFO o.e.j.s.Server: Started @25916ms
+2020-04-13 01:22:58,728 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:22:58,735 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-04-13 01:22:58,735 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-04-13 01:22:58,739 WARN o.a.j.e.u.CompoundVariable: Did not find any functions
+2020-04-13 01:22:58,958 INFO o.e.j.s.h.C.ROOT: RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2020-04-13 01:22:59,855 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:22:59,973 INFO o.a.j.p.h.s.ResourcesDownloader: Creating ResourcesDownloader with keepalive_inseconds : 60
+2020-04-13 01:23:00,596 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:23:00,603 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:23:00,632 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:23:00,637 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:23:00,644 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:23:00,668 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:23:00,675 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:23:00,717 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:23:00,723 INFO o.a.j.p.h.s.HTTPJavaImpl: Maximum connection retries = 0
+2020-04-13 01:23:00,749 INFO o.a.j.p.h.s.HTTPSamplerBase: No user agent extracted from requestHeaders:
+2020-04-13 01:23:00,749 INFO o.a.j.p.h.p.HTMLParser: userAgent is null
+2020-04-13 01:23:00,778 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:23:00,781 INFO o.a.j.p.h.s.HTTPSamplerBase: No user agent extracted from requestHeaders:
+2020-04-13 01:23:00,781 INFO o.a.j.p.h.p.HTMLParser: userAgent is null
+2020-04-13 01:23:00,794 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:23:00,797 INFO o.a.j.p.h.s.HTTPSamplerBase: No user agent extracted from requestHeaders:
+2020-04-13 01:23:00,797 INFO o.a.j.p.h.p.HTMLParser: userAgent is null
+2020-04-13 01:23:00,808 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:23:00,811 INFO o.a.j.p.h.s.HTTPSamplerBase: No user agent extracted from requestHeaders:
+2020-04-13 01:23:00,811 INFO o.a.j.p.h.p.HTMLParser: userAgent is null
+2020-04-13 01:23:00,821 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:23:00,826 INFO o.a.j.p.h.s.HTTPSamplerBase: No user agent extracted from requestHeaders:
+2020-04-13 01:23:00,826 INFO o.a.j.p.h.p.HTMLParser: userAgent is null
+2020-04-13 01:23:00,838 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:23:00,842 INFO o.a.j.p.h.s.HTTPSamplerBase: No user agent extracted from requestHeaders:
+2020-04-13 01:23:00,843 INFO o.a.j.p.h.p.HTMLParser: userAgent is null
+2020-04-13 01:23:00,852 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:23:00,855 INFO o.a.j.p.h.s.HTTPSamplerBase: No user agent extracted from requestHeaders:
+2020-04-13 01:23:00,856 INFO o.a.j.p.h.p.HTMLParser: userAgent is null
+2020-04-13 01:23:00,868 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:23:00,870 INFO o.a.j.p.h.s.HTTPSamplerBase: No user agent extracted from requestHeaders:
+2020-04-13 01:23:00,871 INFO o.a.j.p.h.p.HTMLParser: userAgent is null
+2020-04-13 01:23:00,884 INFO o.e.j.s.AbstractConnector: Stopped NetworkTrafficServerConnector@21e94b31{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+2020-04-13 01:23:00,884 INFO o.e.j.s.h.ContextHandler: Stopped o.e.j.s.ServletContextHandler@3e008a54{/,null,UNAVAILABLE}
+2020-04-13 01:23:00,884 INFO o.e.j.s.h.ContextHandler: Stopped o.e.j.s.ServletContextHandler@55fa2582{/__admin,null,UNAVAILABLE}
+2020-04-13 01:23:00,889 WARN o.a.j.p.h.s.HTTPSamplerBase: File path:''|param:'upload'|mimetype:'application/octet-stream' is invalid as no path is defined
+2020-04-13 01:23:00,889 WARN o.a.j.p.h.s.HTTPSamplerBase: File path:''|param:'upload'|mimetype:'application/octet-stream' is invalid as no path is defined
+2020-04-13 01:23:00,890 WARN o.a.j.p.h.s.HTTPSamplerBase: File path:''|param:'upload'|mimetype:'application/octet-stream' is invalid as no path is defined
+2020-04-13 01:23:00,890 WARN o.a.j.p.h.s.HTTPSamplerBase: File path:''|param:'upload'|mimetype:'application/octet-stream' is invalid as no path is defined
+2020-04-13 01:23:00,912 WARN o.a.j.p.h.s.HTTPSamplerBase: File path:''|param:'upload'|mimetype:'application/octet-stream' is invalid as no path is defined
+2020-04-13 01:23:00,917 INFO o.a.j.p.h.s.PostWriterTest: file.encoding: windows-1252
+2020-04-13 01:23:00,917 INFO o.a.j.p.h.s.PostWriterTest: Using other encoding: UTF-8
+2020-04-13 01:23:00,960 INFO o.e.j.s.Server: jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_221-b11
+2020-04-13 01:23:00,964 INFO o.e.j.s.h.ContextHandler: Started o.e.j.s.ServletContextHandler@6e35f1c4{/__admin,null,AVAILABLE}
+2020-04-13 01:23:00,964 INFO o.e.j.s.h.ContextHandler: Started o.e.j.s.ServletContextHandler@2302d4d0{/,null,AVAILABLE}
+2020-04-13 01:23:01,047 INFO o.e.j.s.AbstractConnector: Started NetworkTrafficServerConnector@fab84bc{HTTP/1.1,[http/1.1]}{0.0.0.0:55567}
+2020-04-13 01:23:01,047 INFO o.e.j.s.Server: Started @29319ms
+2020-04-13 01:23:01,117 INFO o.e.j.s.h.C.ROOT: RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2020-04-13 01:23:01,150 INFO o.e.j.s.AbstractConnector: Stopped NetworkTrafficServerConnector@fab84bc{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+2020-04-13 01:23:01,150 INFO o.e.j.s.h.ContextHandler: Stopped o.e.j.s.ServletContextHandler@2302d4d0{/,null,UNAVAILABLE}
+2020-04-13 01:23:01,150 INFO o.e.j.s.h.ContextHandler: Stopped o.e.j.s.ServletContextHandler@6e35f1c4{/__admin,null,UNAVAILABLE}
+2020-04-13 01:23:01,157 INFO o.e.j.s.Server: jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_221-b11
+2020-04-13 01:23:01,168 INFO o.e.j.s.h.ContextHandler: Started o.e.j.s.ServletContextHandler@7d1c874b{/__admin,null,AVAILABLE}
+2020-04-13 01:23:01,169 INFO o.e.j.s.h.ContextHandler: Started o.e.j.s.ServletContextHandler@645eca9d{/,null,AVAILABLE}
+2020-04-13 01:23:01,177 INFO o.e.j.s.AbstractConnector: Started NetworkTrafficServerConnector@28fc01db{HTTP/1.1,[http/1.1]}{0.0.0.0:55573}
+2020-04-13 01:23:01,177 INFO o.e.j.s.Server: Started @29448ms
+2020-04-13 01:23:01,183 INFO o.e.j.s.h.C.ROOT: RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2020-04-13 01:23:01,195 INFO o.e.j.s.AbstractConnector: Stopped NetworkTrafficServerConnector@28fc01db{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+2020-04-13 01:23:01,195 INFO o.e.j.s.h.ContextHandler: Stopped o.e.j.s.ServletContextHandler@645eca9d{/,null,UNAVAILABLE}
+2020-04-13 01:23:01,195 INFO o.e.j.s.h.ContextHandler: Stopped o.e.j.s.ServletContextHandler@7d1c874b{/__admin,null,UNAVAILABLE}
+2020-04-13 01:23:01,202 INFO o.e.j.s.Server: jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_221-b11
+2020-04-13 01:23:01,204 INFO o.e.j.s.h.ContextHandler: Started o.e.j.s.ServletContextHandler@54b21dc7{/__admin,null,AVAILABLE}
+2020-04-13 01:23:01,205 INFO o.e.j.s.h.ContextHandler: Started o.e.j.s.ServletContextHandler@43461b9a{/,null,AVAILABLE}
+2020-04-13 01:23:01,224 INFO o.e.j.s.AbstractConnector: Started NetworkTrafficServerConnector@4b9efaa{HTTP/1.1,[http/1.1]}{0.0.0.0:55579}
+2020-04-13 01:23:01,224 INFO o.e.j.s.Server: Started @29496ms
+2020-04-13 01:23:01,232 INFO o.e.j.s.h.C.ROOT: RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2020-04-13 01:23:01,242 INFO o.e.j.s.AbstractConnector: Stopped NetworkTrafficServerConnector@4b9efaa{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+2020-04-13 01:23:01,242 INFO o.e.j.s.h.ContextHandler: Stopped o.e.j.s.ServletContextHandler@43461b9a{/,null,UNAVAILABLE}
+2020-04-13 01:23:01,243 INFO o.e.j.s.h.ContextHandler: Stopped o.e.j.s.ServletContextHandler@54b21dc7{/__admin,null,UNAVAILABLE}
+2020-04-13 01:23:01,249 INFO o.e.j.s.Server: jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_221-b11
+2020-04-13 01:23:01,250 INFO o.e.j.s.h.ContextHandler: Started o.e.j.s.ServletContextHandler@2963721e{/__admin,null,AVAILABLE}
+2020-04-13 01:23:01,251 INFO o.e.j.s.h.ContextHandler: Started o.e.j.s.ServletContextHandler@16f3f1a1{/,null,AVAILABLE}
+2020-04-13 01:23:01,260 INFO o.e.j.s.AbstractConnector: Started NetworkTrafficServerConnector@1959ca47{HTTP/1.1,[http/1.1]}{0.0.0.0:55585}
+2020-04-13 01:23:01,261 INFO o.e.j.s.Server: Started @29533ms
+2020-04-13 01:23:01,267 INFO o.e.j.s.h.C.ROOT: RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2020-04-13 01:23:01,275 INFO o.e.j.s.AbstractConnector: Stopped NetworkTrafficServerConnector@1959ca47{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+2020-04-13 01:23:01,275 INFO o.e.j.s.h.ContextHandler: Stopped o.e.j.s.ServletContextHandler@16f3f1a1{/,null,UNAVAILABLE}
+2020-04-13 01:23:01,275 INFO o.e.j.s.h.ContextHandler: Stopped o.e.j.s.ServletContextHandler@2963721e{/__admin,null,UNAVAILABLE}
+2020-04-13 01:23:01,285 INFO o.e.j.s.Server: jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_221-b11
+2020-04-13 01:23:01,286 INFO o.e.j.s.h.ContextHandler: Started o.e.j.s.ServletContextHandler@bcb8048{/__admin,null,AVAILABLE}
+2020-04-13 01:23:01,287 INFO o.e.j.s.h.ContextHandler: Started o.e.j.s.ServletContextHandler@348f4702{/,null,AVAILABLE}
+2020-04-13 01:23:01,294 INFO o.e.j.s.AbstractConnector: Started NetworkTrafficServerConnector@5841068a{HTTP/1.1,[http/1.1]}{0.0.0.0:55591}
+2020-04-13 01:23:01,294 INFO o.e.j.s.Server: Started @29566ms
+2020-04-13 01:23:01,300 INFO o.e.j.s.h.C.ROOT: RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2020-04-13 01:23:01,308 INFO o.e.j.s.AbstractConnector: Stopped NetworkTrafficServerConnector@5841068a{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+2020-04-13 01:23:01,308 INFO o.e.j.s.h.ContextHandler: Stopped o.e.j.s.ServletContextHandler@348f4702{/,null,UNAVAILABLE}
+2020-04-13 01:23:01,308 INFO o.e.j.s.h.ContextHandler: Stopped o.e.j.s.ServletContextHandler@bcb8048{/__admin,null,UNAVAILABLE}
+2020-04-13 01:23:01,317 INFO o.e.j.s.Server: jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_221-b11
+2020-04-13 01:23:01,319 INFO o.e.j.s.h.ContextHandler: Started o.e.j.s.ServletContextHandler@69b07ff1{/__admin,null,AVAILABLE}
+2020-04-13 01:23:01,319 INFO o.e.j.s.h.ContextHandler: Started o.e.j.s.ServletContextHandler@5dfd28b8{/,null,AVAILABLE}
+2020-04-13 01:23:01,329 INFO o.e.j.s.AbstractConnector: Started NetworkTrafficServerConnector@1ef93560{HTTP/1.1,[http/1.1]}{0.0.0.0:55597}
+2020-04-13 01:23:01,329 INFO o.e.j.s.Server: Started @29601ms
+2020-04-13 01:23:01,337 INFO o.e.j.s.h.C.ROOT: RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2020-04-13 01:23:01,347 INFO o.e.j.s.AbstractConnector: Stopped NetworkTrafficServerConnector@1ef93560{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+2020-04-13 01:23:01,348 INFO o.e.j.s.h.ContextHandler: Stopped o.e.j.s.ServletContextHandler@5dfd28b8{/,null,UNAVAILABLE}
+2020-04-13 01:23:01,348 INFO o.e.j.s.h.ContextHandler: Stopped o.e.j.s.ServletContextHandler@69b07ff1{/__admin,null,UNAVAILABLE}
+2020-04-13 01:23:01,356 INFO o.e.j.s.Server: jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_221-b11
+2020-04-13 01:23:01,358 INFO o.e.j.s.h.ContextHandler: Started o.e.j.s.ServletContextHandler@6313368a{/__admin,null,AVAILABLE}
+2020-04-13 01:23:01,358 INFO o.e.j.s.h.ContextHandler: Started o.e.j.s.ServletContextHandler@66f10b37{/,null,AVAILABLE}
+2020-04-13 01:23:01,370 INFO o.e.j.s.AbstractConnector: Started NetworkTrafficServerConnector@3f3ee5ee{HTTP/1.1,[http/1.1]}{0.0.0.0:55603}
+2020-04-13 01:23:01,370 INFO o.e.j.s.Server: Started @29642ms
+2020-04-13 01:23:01,374 INFO o.e.j.s.h.C.ROOT: RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2020-04-13 01:23:01,385 INFO o.e.j.s.AbstractConnector: Stopped NetworkTrafficServerConnector@3f3ee5ee{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+2020-04-13 01:23:01,385 INFO o.e.j.s.h.ContextHandler: Stopped o.e.j.s.ServletContextHandler@66f10b37{/,null,UNAVAILABLE}
+2020-04-13 01:23:01,385 INFO o.e.j.s.h.ContextHandler: Stopped o.e.j.s.ServletContextHandler@6313368a{/__admin,null,UNAVAILABLE}
+2020-04-13 01:23:01,391 INFO o.e.j.s.Server: jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_221-b11
+2020-04-13 01:23:01,393 INFO o.e.j.s.h.ContextHandler: Started o.e.j.s.ServletContextHandler@3d7981fe{/__admin,null,AVAILABLE}
+2020-04-13 01:23:01,394 INFO o.e.j.s.h.ContextHandler: Started o.e.j.s.ServletContextHandler@7430fe85{/,null,AVAILABLE}
+2020-04-13 01:23:01,437 INFO o.e.j.s.AbstractConnector: Started NetworkTrafficServerConnector@f9d18ed{HTTP/1.1,[http/1.1]}{0.0.0.0:55609}
+2020-04-13 01:23:01,437 INFO o.e.j.s.Server: Started @29709ms
+2020-04-13 01:23:01,443 INFO o.e.j.s.h.C.ROOT: RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2020-04-13 01:23:01,451 INFO o.e.j.s.AbstractConnector: Stopped NetworkTrafficServerConnector@f9d18ed{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+2020-04-13 01:23:01,452 INFO o.e.j.s.h.ContextHandler: Stopped o.e.j.s.ServletContextHandler@7430fe85{/,null,UNAVAILABLE}
+2020-04-13 01:23:01,452 INFO o.e.j.s.h.ContextHandler: Stopped o.e.j.s.ServletContextHandler@3d7981fe{/__admin,null,UNAVAILABLE}
+2020-04-13 01:23:01,473 INFO o.a.j.s.FileServer: Default base='C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\http'
+2020-04-13 01:23:01,478 INFO o.a.j.s.FileServer: Set new base='C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\http\build\resources\test\org\apache\jmeter\protocol\http\sampler'
+2020-04-13 01:23:01,482 INFO o.a.j.s.FileServer: Stored: checkThatFilesAreReadRelativeToBaseDir.txt
+2020-04-13 01:23:01,577 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2020-04-13 01:23:01,587 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2020-04-13 01:23:01,587 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2020-04-13 01:23:01,736 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2020-04-13 01:23:01,739 INFO o.a.j.u.SSLManager: KeyStore created OK
+2020-04-13 01:23:01,740 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2020-04-13 01:23:02,315 INFO o.a.j.s.FileServer: Set new base='C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\http'
+2020-04-13 01:23:02,736 INFO o.a.j.p.h.c.HttpMirrorServer: Creating HttpMirror ... on port 8181
+2020-04-13 01:23:02,736 INFO o.a.j.p.h.c.HttpMirrorServer: HttpMirror up and running!
+2020-04-13 01:23:04,291 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.JTidyHTMLParser
+2020-04-13 01:23:04,513 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-04-13 01:23:04,691 INFO o.a.j.p.h.c.HttpMirrorServer: HttpMirror Server stopped
+2020-04-13 01:23:04,855 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.JsoupBasedHtmlParser
+2020-04-13 01:23:05,239 INFO o.a.j.p.h.c.HttpMirrorServer: Creating HttpMirror ... on port 8182
+2020-04-13 01:23:05,239 INFO o.a.j.p.h.c.HttpMirrorServer: HttpMirror up and running!
+2020-04-13 01:23:05,294 INFO o.a.j.u.JMeterUtils: Setting Locale to en
+2020-04-13 01:23:05,396 INFO o.a.j.u.JMeterUtils: Setting Locale to en
+2020-04-13 01:23:05,431 INFO o.a.j.u.JMeterUtils: Setting Locale to en
+2020-04-13 01:23:05,435 INFO o.a.j.s.FileServer: Stored: C:\Users\Carlos\AppData\Local\Temp\TestHTTPSamplersAgainstHttpMirrorServer947721539155607689tmp
+2020-04-13 01:23:05,468 INFO o.a.j.u.JMeterUtils: Setting Locale to en
+2020-04-13 01:23:05,606 INFO o.a.j.u.JMeterUtils: Setting Locale to en
+2020-04-13 01:23:05,609 INFO o.a.j.u.JMeterUtils: Setting Locale to en
+2020-04-13 01:23:05,634 INFO o.a.j.u.JMeterUtils: Setting Locale to en
+2020-04-13 01:23:05,638 INFO o.a.j.u.JMeterUtils: Setting Locale to en
+2020-04-13 01:23:05,757 WARN o.a.j.p.h.c.DNSCacheManager: Failed to create Extended resolver: 512.1.1.1
+java.net.UnknownHostException: 512.1.1.1
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:1.8.0_221]
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929) ~[?:1.8.0_221]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324) ~[?:1.8.0_221]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277) ~[?:1.8.0_221]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_221]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_221]
+	at java.net.InetAddress.getByName(InetAddress.java:1077) ~[?:1.8.0_221]
+	at org.xbill.DNS.SimpleResolver.<init>(SimpleResolver.java:56) ~[dnsjava-2.1.9.jar:?]
+	at org.xbill.DNS.ExtendedResolver.<init>(ExtendedResolver.java:280) ~[dnsjava-2.1.9.jar:?]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManager.createResolver(DNSCacheManager.java:126) ~[main/:?]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManager.getOrCreateResolver(DNSCacheManager.java:303) ~[main/:?]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManager.requestLookup(DNSCacheManager.java:256) ~[main/:?]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManager.fromStaticHost(DNSCacheManager.java:222) ~[main/:?]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManager.resolve(DNSCacheManager.java:158) ~[main/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98) ~[groovy-all-2.4.16.jar:2.4.16]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325) ~[groovy-all-2.4.16.jar:2.4.16]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225) ~[groovy-all-2.4.16.jar:2.4.16]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePojoMethod(InvokerHelper.java:935) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:926) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodN(ScriptBytecodeAdapter.java:181) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManagerSpec.$spock_feature_1_1(DNSCacheManagerSpec.groovy:57) ~[test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:200) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.model.MethodInfo.invoke(MethodInfo.java:113) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:484) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:467) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runFeatureMethod(BaseSpecRunner.java:408) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:322) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner$6.invoke(BaseSpecRunner.java:306) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:484) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:467) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:285) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:275) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:266) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:260) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner$5.invoke(BaseSpecRunner.java:243) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:484) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:467) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:235) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:185) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:95) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner$1.invoke(BaseSpecRunner.java:81) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:484) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:467) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:73) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:64) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) ~[junit-4.12.jar:4.12]
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:40) ~[junit-vintage-engine-5.5.1.jar:5.5.1]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:1.8.0_221]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_221]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_221]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_221]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_221]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_221]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:1.8.0_221]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:1.8.0_221]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_221]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418) ~[?:1.8.0_221]
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80) ~[junit-vintage-engine-5.5.1.jar:5.5.1]
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:71) ~[junit-vintage-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99) [gradle-testing-junit-platform-6.0.1.jar:6.0.1]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79) [gradle-testing-junit-platform-6.0.1.jar:6.0.1]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75) [gradle-testing-junit-platform-6.0.1.jar:6.0.1]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61) [gradle-testing-base-6.0.1.jar:6.0.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) [gradle-messaging-6.0.1.jar:6.0.1]
+	at com.sun.proxy.$Proxy2.stop(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132) [gradle-testing-base-6.0.1.jar:6.0.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64) [gradle-base-services-6.0.1.jar:6.0.1]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48) [gradle-base-services-6.0.1.jar:6.0.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.0.1.jar:6.0.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+2020-04-13 01:23:05,761 WARN o.a.j.p.h.c.DNSCacheManager: Couldn't resolve static address 127.0.0.1 for host localhost
+java.net.UnknownHostException: Could not resolve host:127.0.0.1, failed to initialize resolver or no resolver found
+	at org.apache.jmeter.protocol.http.control.DNSCacheManager.requestLookup(DNSCacheManager.java:258) ~[main/:?]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManager.fromStaticHost(DNSCacheManager.java:222) ~[main/:?]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManager.resolve(DNSCacheManager.java:158) ~[main/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98) ~[groovy-all-2.4.16.jar:2.4.16]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325) ~[groovy-all-2.4.16.jar:2.4.16]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225) ~[groovy-all-2.4.16.jar:2.4.16]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePojoMethod(InvokerHelper.java:935) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:926) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodN(ScriptBytecodeAdapter.java:181) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManagerSpec.$spock_feature_1_1(DNSCacheManagerSpec.groovy:57) ~[test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:200) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.model.MethodInfo.invoke(MethodInfo.java:113) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:484) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:467) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runFeatureMethod(BaseSpecRunner.java:408) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:322) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner$6.invoke(BaseSpecRunner.java:306) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:484) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:467) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:285) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:275) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:266) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:260) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner$5.invoke(BaseSpecRunner.java:243) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:484) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:467) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:235) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:185) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:95) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner$1.invoke(BaseSpecRunner.java:81) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:484) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:467) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:73) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:64) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) ~[junit-4.12.jar:4.12]
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:40) ~[junit-vintage-engine-5.5.1.jar:5.5.1]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:1.8.0_221]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_221]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_221]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_221]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_221]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_221]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:1.8.0_221]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:1.8.0_221]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_221]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418) ~[?:1.8.0_221]
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80) ~[junit-vintage-engine-5.5.1.jar:5.5.1]
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:71) ~[junit-vintage-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99) [gradle-testing-junit-platform-6.0.1.jar:6.0.1]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79) [gradle-testing-junit-platform-6.0.1.jar:6.0.1]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75) [gradle-testing-junit-platform-6.0.1.jar:6.0.1]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61) [gradle-testing-base-6.0.1.jar:6.0.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) [gradle-messaging-6.0.1.jar:6.0.1]
+	at com.sun.proxy.$Proxy2.stop(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132) [gradle-testing-base-6.0.1.jar:6.0.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64) [gradle-base-services-6.0.1.jar:6.0.1]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48) [gradle-base-services-6.0.1.jar:6.0.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.0.1.jar:6.0.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+2020-04-13 01:23:05,840 WARN o.a.j.p.h.c.DNSCacheManager: Failed to create Extended resolver: 512.1.1.1
+java.net.UnknownHostException: 512.1.1.1
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_221]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_221]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_221]
+	at java.net.InetAddress.getByName(InetAddress.java:1077) ~[?:1.8.0_221]
+	at org.xbill.DNS.SimpleResolver.<init>(SimpleResolver.java:56) ~[dnsjava-2.1.9.jar:?]
+	at org.xbill.DNS.ExtendedResolver.<init>(ExtendedResolver.java:280) ~[dnsjava-2.1.9.jar:?]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManager.createResolver(DNSCacheManager.java:126) ~[main/:?]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManager.getOrCreateResolver(DNSCacheManager.java:303) ~[main/:?]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManager.requestLookup(DNSCacheManager.java:256) ~[main/:?]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManager.resolve(DNSCacheManager.java:165) ~[main/:?]
+	at org.apache.http.conn.DnsResolver$resolve.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:128) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManagerSpec.$spock_feature_1_4(DNSCacheManagerSpec.groovy:87) ~[test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:200) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.model.MethodInfo.invoke(MethodInfo.java:113) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:484) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:467) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runFeatureMethod(BaseSpecRunner.java:408) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:322) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner$6.invoke(BaseSpecRunner.java:306) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:484) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:467) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:285) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:275) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:266) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:260) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner$5.invoke(BaseSpecRunner.java:243) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:484) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:467) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:235) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:185) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:95) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner$1.invoke(BaseSpecRunner.java:81) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:484) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:467) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:73) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:64) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) ~[junit-4.12.jar:4.12]
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:40) ~[junit-vintage-engine-5.5.1.jar:5.5.1]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:1.8.0_221]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_221]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_221]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_221]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_221]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_221]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:1.8.0_221]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:1.8.0_221]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_221]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418) ~[?:1.8.0_221]
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80) ~[junit-vintage-engine-5.5.1.jar:5.5.1]
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:71) ~[junit-vintage-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99) [gradle-testing-junit-platform-6.0.1.jar:6.0.1]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79) [gradle-testing-junit-platform-6.0.1.jar:6.0.1]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75) [gradle-testing-junit-platform-6.0.1.jar:6.0.1]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61) [gradle-testing-base-6.0.1.jar:6.0.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) [gradle-messaging-6.0.1.jar:6.0.1]
+	at com.sun.proxy.$Proxy2.stop(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132) [gradle-testing-base-6.0.1.jar:6.0.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64) [gradle-base-services-6.0.1.jar:6.0.1]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48) [gradle-base-services-6.0.1.jar:6.0.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.0.1.jar:6.0.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+2020-04-13 01:23:05,908 WARN o.a.j.p.h.c.DNSCacheManager: Failed to create Extended resolver: 512.1.1.1
+java.net.UnknownHostException: 512.1.1.1
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_221]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_221]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_221]
+	at java.net.InetAddress.getByName(InetAddress.java:1077) ~[?:1.8.0_221]
+	at org.xbill.DNS.SimpleResolver.<init>(SimpleResolver.java:56) ~[dnsjava-2.1.9.jar:?]
+	at org.xbill.DNS.ExtendedResolver.<init>(ExtendedResolver.java:280) ~[dnsjava-2.1.9.jar:?]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManager.createResolver(DNSCacheManager.java:126) ~[main/:?]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManager.clone(DNSCacheManager.java:113) ~[main/:?]
+	at org.apache.jmeter.testelement.TestElement$clone$0.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManagerSpec.$spock_feature_1_8(DNSCacheManagerSpec.groovy:148) ~[test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:200) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.model.MethodInfo.invoke(MethodInfo.java:113) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:484) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:467) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runFeatureMethod(BaseSpecRunner.java:408) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:322) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner$6.invoke(BaseSpecRunner.java:306) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:484) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:467) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:285) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:275) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:266) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:260) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner$5.invoke(BaseSpecRunner.java:243) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:484) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:467) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:235) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:185) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:95) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner$1.invoke(BaseSpecRunner.java:81) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:484) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:467) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:73) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:64) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) ~[junit-4.12.jar:4.12]
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:40) ~[junit-vintage-engine-5.5.1.jar:5.5.1]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:1.8.0_221]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_221]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_221]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_221]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_221]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_221]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:1.8.0_221]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:1.8.0_221]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_221]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418) ~[?:1.8.0_221]
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80) ~[junit-vintage-engine-5.5.1.jar:5.5.1]
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:71) ~[junit-vintage-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99) [gradle-testing-junit-platform-6.0.1.jar:6.0.1]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79) [gradle-testing-junit-platform-6.0.1.jar:6.0.1]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75) [gradle-testing-junit-platform-6.0.1.jar:6.0.1]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61) [gradle-testing-base-6.0.1.jar:6.0.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) [gradle-messaging-6.0.1.jar:6.0.1]
+	at com.sun.proxy.$Proxy2.stop(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132) [gradle-testing-base-6.0.1.jar:6.0.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64) [gradle-base-services-6.0.1.jar:6.0.1]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48) [gradle-base-services-6.0.1.jar:6.0.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.0.1.jar:6.0.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+2020-04-13 01:23:05,912 WARN o.a.j.p.h.c.DNSCacheManager: Failed to create Extended resolver: 512.1.1.1
+java.net.UnknownHostException: 512.1.1.1
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_221]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_221]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_221]
+	at java.net.InetAddress.getByName(InetAddress.java:1077) ~[?:1.8.0_221]
+	at org.xbill.DNS.SimpleResolver.<init>(SimpleResolver.java:56) ~[dnsjava-2.1.9.jar:?]
+	at org.xbill.DNS.ExtendedResolver.<init>(ExtendedResolver.java:280) ~[dnsjava-2.1.9.jar:?]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManager.createResolver(DNSCacheManager.java:126) ~[main/:?]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManager.getOrCreateResolver(DNSCacheManager.java:303) ~[main/:?]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManager.requestLookup(DNSCacheManager.java:256) ~[main/:?]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManager.resolve(DNSCacheManager.java:165) ~[main/:?]
+	at org.apache.http.conn.DnsResolver$resolve.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:128) ~[groovy-all-2.4.16.jar:2.4.16]
+	at org.apache.jmeter.protocol.http.control.DNSCacheManagerSpec.$spock_feature_1_8(DNSCacheManagerSpec.groovy:151) ~[test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:200) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.model.MethodInfo.invoke(MethodInfo.java:113) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:484) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:467) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runFeatureMethod(BaseSpecRunner.java:408) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:322) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner$6.invoke(BaseSpecRunner.java:306) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:484) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:467) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:285) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:275) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:266) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:260) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner$5.invoke(BaseSpecRunner.java:243) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:484) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:467) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:235) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:185) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:95) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner$1.invoke(BaseSpecRunner.java:81) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:484) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:467) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:73) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:64) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63) ~[spock-core-1.2-groovy-2.4.jar:1.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) ~[junit-4.12.jar:4.12]
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:40) ~[junit-vintage-engine-5.5.1.jar:5.5.1]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:1.8.0_221]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_221]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_221]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_221]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_221]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_221]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:1.8.0_221]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:1.8.0_221]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_221]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418) ~[?:1.8.0_221]
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80) ~[junit-vintage-engine-5.5.1.jar:5.5.1]
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:71) ~[junit-vintage-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99) [gradle-testing-junit-platform-6.0.1.jar:6.0.1]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79) [gradle-testing-junit-platform-6.0.1.jar:6.0.1]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75) [gradle-testing-junit-platform-6.0.1.jar:6.0.1]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61) [gradle-testing-base-6.0.1.jar:6.0.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) [gradle-messaging-6.0.1.jar:6.0.1]
+	at com.sun.proxy.$Proxy2.stop(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132) [gradle-testing-base-6.0.1.jar:6.0.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412) [gradle-messaging-6.0.1.jar:6.0.1]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64) [gradle-base-services-6.0.1.jar:6.0.1]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48) [gradle-base-services-6.0.1.jar:6.0.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.0.1.jar:6.0.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]

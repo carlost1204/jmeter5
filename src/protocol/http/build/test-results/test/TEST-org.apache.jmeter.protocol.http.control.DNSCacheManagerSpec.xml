@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.protocol.http.control.DNSCacheManagerSpec" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:23:05" hostname="DESKTOP-E34GR96" time="0.546">
+  <properties/>
+  <testcase name="A custom resolver with one host will resolve that host" classname="org.apache.jmeter.protocol.http.control.DNSCacheManagerSpec" time="0.071"/>
+  <testcase name="A custom resolver with one host and an invalid DNS server will still resolve that host" classname="org.apache.jmeter.protocol.http.control.DNSCacheManagerSpec" time="0.012"/>
+  <testcase name="A custom resolver with one host with many addresses will resolve all addresses for that host" classname="org.apache.jmeter.protocol.http.control.DNSCacheManagerSpec" time="0.0"/>
+  <testcase name="Clear removes custom resolver status and any added hosts" classname="org.apache.jmeter.protocol.http.control.DNSCacheManagerSpec" time="0.073"/>
+  <testcase name="If using an invalid server resolve throws UnknownHostException" classname="org.apache.jmeter.protocol.http.control.DNSCacheManagerSpec" time="0.016"/>
+  <testcase name="Valid DNS resolves and caches with custom resolve true" classname="org.apache.jmeter.protocol.http.control.DNSCacheManagerSpec" time="0.052"/>
+  <testcase name="Cache should be used where entries exist" classname="org.apache.jmeter.protocol.http.control.DNSCacheManagerSpec" time="0.002"/>
+  <testcase name="set custom resolver but without an address should use system resolver" classname="org.apache.jmeter.protocol.http.control.DNSCacheManagerSpec" time="0.0"/>
+  <testcase name="Clones retain custom resolve and server info" classname="org.apache.jmeter.protocol.http.control.DNSCacheManagerSpec" time="0.009"/>
+  <testcase name="Resolve Existing Host With System Default Dns Server" classname="org.apache.jmeter.protocol.http.control.DNSCacheManagerSpec" time="0.285"/>
+  <testcase name="Resolve Non-existing Host With System Default Dns Server" classname="org.apache.jmeter.protocol.http.control.DNSCacheManagerSpec" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.protocol.http.sampler.PostWriterTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:23:00" hostname="DESKTOP-E34GR96" time="0.051">
+  <properties/>
+  <testcase name="testSendPostData_NoFilename()" classname="org.apache.jmeter.protocol.http.sampler.PostWriterTest" time="0.005"/>
+  <testcase name="testSendPostData()" classname="org.apache.jmeter.protocol.http.sampler.PostWriterTest" time="0.005"/>
+  <testcase name="testSetHeaders_NoFilename()" classname="org.apache.jmeter.protocol.http.sampler.PostWriterTest" time="0.004"/>
+  <testcase name="testSendPostData_FileAsBody()" classname="org.apache.jmeter.protocol.http.sampler.PostWriterTest" time="0.006"/>
+  <testcase name="testSetHeaders()" classname="org.apache.jmeter.protocol.http.sampler.PostWriterTest" time="0.003"/>
+  <testcase name="testSendFormData_Multipart()" classname="org.apache.jmeter.protocol.http.sampler.PostWriterTest" time="0.003"/>
+  <testcase name="testSendFileData_Multipart()" classname="org.apache.jmeter.protocol.http.sampler.PostWriterTest" time="0.006"/>
+  <testcase name="testSendFormData_Urlencoded()" classname="org.apache.jmeter.protocol.http.sampler.PostWriterTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

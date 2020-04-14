@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.protocol.http.proxy.TestProxyControl" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:22:56" hostname="DESKTOP-E34GR96" time="0.644">
+  <properties/>
+  <testcase name="testContentTypeExclude()" classname="org.apache.jmeter.protocol.http.proxy.TestProxyControl" time="0.633"/>
+  <testcase name="testFilter1()" classname="org.apache.jmeter.protocol.http.proxy.TestProxyControl" time="0.001"/>
+  <testcase name="testFilter2()" classname="org.apache.jmeter.protocol.http.proxy.TestProxyControl" time="0.001"/>
+  <testcase name="testFilter3()" classname="org.apache.jmeter.protocol.http.proxy.TestProxyControl" time="0.001"/>
+  <testcase name="testContentTypeIncludeAndExclude()" classname="org.apache.jmeter.protocol.http.proxy.TestProxyControl" time="0.001"/>
+  <testcase name="testContentTypeNoFilters()" classname="org.apache.jmeter.protocol.http.proxy.TestProxyControl" time="0.001"/>
+  <testcase name="testContentTypeInclude()" classname="org.apache.jmeter.protocol.http.proxy.TestProxyControl" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

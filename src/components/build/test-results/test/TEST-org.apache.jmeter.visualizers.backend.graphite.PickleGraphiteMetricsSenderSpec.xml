@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.visualizers.backend.graphite.PickleGraphiteMetricsSenderSpec" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:58" hostname="DESKTOP-E34GR96" time="0.478">
+  <properties/>
+  <testcase name="new sender has no metrics" classname="org.apache.jmeter.visualizers.backend.graphite.PickleGraphiteMetricsSenderSpec" time="0.07"/>
+  <testcase name="adding metric to sender creates correct MetricTuple" classname="org.apache.jmeter.visualizers.backend.graphite.PickleGraphiteMetricsSenderSpec" time="0.021"/>
+  <testcase name="writeAndSendMetrics does not attempt connection if there's nothing to send" classname="org.apache.jmeter.visualizers.backend.graphite.PickleGraphiteMetricsSenderSpec" time="0.002"/>
+  <testcase name="writeAndSendMetrics connects and sends if there's something to send, dropping metrics on connection failure, without throwing exceptions" classname="org.apache.jmeter.visualizers.backend.graphite.PickleGraphiteMetricsSenderSpec" time="0.341"/>
+  <testcase name="destroy closes outputStreamPool" classname="org.apache.jmeter.visualizers.backend.graphite.PickleGraphiteMetricsSenderSpec" time="0.001"/>
+  <testcase name="convertMetricsToPickleFormat produces expected result for one metric" classname="org.apache.jmeter.visualizers.backend.graphite.PickleGraphiteMetricsSenderSpec" time="0.042"/>
+  <testcase name="convertMetricsToPickleFormat produces expected result for multiple metrics" classname="org.apache.jmeter.visualizers.backend.graphite.PickleGraphiteMetricsSenderSpec" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

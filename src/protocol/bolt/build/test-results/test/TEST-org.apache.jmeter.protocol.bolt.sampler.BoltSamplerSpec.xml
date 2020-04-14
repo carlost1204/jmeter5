@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.protocol.bolt.sampler.BoltSamplerSpec" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:22:04" hostname="DESKTOP-E34GR96" time="3.465">
+  <properties/>
+  <testcase name="should execute return success on successful query" classname="org.apache.jmeter.protocol.bolt.sampler.BoltSamplerSpec" time="3.335"/>
+  <testcase name="should return error on failed query" classname="org.apache.jmeter.protocol.bolt.sampler.BoltSamplerSpec" time="0.078"/>
+  <testcase name="should return error on invalid parameters" classname="org.apache.jmeter.protocol.bolt.sampler.BoltSamplerSpec" time="0.036"/>
+  <testcase name="should return db error code" classname="org.apache.jmeter.protocol.bolt.sampler.BoltSamplerSpec" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

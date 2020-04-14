@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.22">
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\tcp\src\test\java\org\apache\jmeter\protocol\tcp\sampler\BinaryTCPClientImplTest.java">
+</file>
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\tcp\src\test\java\org\apache\jmeter\protocol\tcp\sampler\LengthPrefixedBinaryTCPClientImplTest.java">
+</file>
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\tcp\src\test\java\org\apache\jmeter\protocol\tcp\sampler\TCPClientDecoratorTest.java">
+</file>
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\tcp\src\test\java\org\apache\jmeter\resources\ResourceKeyUsageTestTcp.java">
+</file>
+</checkstyle>

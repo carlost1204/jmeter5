@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.samplers.TestDataStrippingSampleSender" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:51" hostname="DESKTOP-E34GR96" time="0.03">
+  <properties/>
+  <testcase name="testSampleOccurred[is successful sample: true, expected content after stripping: , stripOnFailure: true]" classname="org.apache.jmeter.samplers.TestDataStrippingSampleSender" time="0.012"/>
+  <testcase name="testSampleOccurred[is successful sample: true, expected content after stripping: , stripOnFailure: false]" classname="org.apache.jmeter.samplers.TestDataStrippingSampleSender" time="0.004"/>
+  <testcase name="testSampleOccurred[is successful sample: false, expected content after stripping: , stripOnFailure: true]" classname="org.apache.jmeter.samplers.TestDataStrippingSampleSender" time="0.007"/>
+  <testcase name="testSampleOccurred[is successful sample: false, expected content after stripping: Something important, stripOnFailure: false]" classname="org.apache.jmeter.samplers.TestDataStrippingSampleSender" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

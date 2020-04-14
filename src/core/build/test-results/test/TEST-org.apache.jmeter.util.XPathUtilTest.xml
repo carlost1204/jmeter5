@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.util.XPathUtilTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:49" hostname="DESKTOP-E34GR96" time="1.872">
+  <properties/>
+  <testcase name="testMakeDocumentIsnegated()" classname="org.apache.jmeter.util.XPathUtilTest" time="0.606"/>
+  <testcase name="testFormatXmlComplex()" classname="org.apache.jmeter.util.XPathUtilTest" time="0.152"/>
+  <testcase name="testnamespacesParse()" classname="org.apache.jmeter.util.XPathUtilTest" time="0.001"/>
+  <testcase name="testMakeDocument()" classname="org.apache.jmeter.util.XPathUtilTest" time="0.019"/>
+  <testcase name="testBug63033()" classname="org.apache.jmeter.util.XPathUtilTest" time="0.855"/>
+  <testcase name="testFormatXmlInvalid()" classname="org.apache.jmeter.util.XPathUtilTest" time="0.028"/>
+  <testcase name="testPutValuesForXPathInList()" classname="org.apache.jmeter.util.XPathUtilTest" time="0.008"/>
+  <testcase name="testputValuesForXPathInListUsingSaxon()" classname="org.apache.jmeter.util.XPathUtilTest" time="0.039"/>
+  <testcase name="testComputeAssertionResultUsingSaxon()" classname="org.apache.jmeter.util.XPathUtilTest" time="0.12"/>
+  <testcase name="testFormatXmlSimple()" classname="org.apache.jmeter.util.XPathUtilTest" time="0.004"/>
+  <testcase name="testGetNamespaces()" classname="org.apache.jmeter.util.XPathUtilTest" time="0.026"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

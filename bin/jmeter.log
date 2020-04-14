@@ -1,0 +1,37 @@
+2020-04-13 01:50:29,675 INFO o.a.j.u.JMeterUtils: Setting Locale to pt_BR
+2020-04-13 01:50:29,692 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2020-04-13 01:50:29,693 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2020-04-13 01:50:29,694 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-04-13 01:50:29,695 INFO o.a.j.JMeter: Version 5.2.1-SNAPSHOTnull
+2020-04-13 01:50:29,695 INFO o.a.j.JMeter: java.version=1.8.0_241
+2020-04-13 01:50:29,695 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-04-13 01:50:29,695 INFO o.a.j.JMeter: os.name=Windows 10
+2020-04-13 01:50:29,695 INFO o.a.j.JMeter: os.arch=amd64
+2020-04-13 01:50:29,695 INFO o.a.j.JMeter: os.version=10.0
+2020-04-13 01:50:29,695 INFO o.a.j.JMeter: file.encoding=windows-1252
+2020-04-13 01:50:29,696 INFO o.a.j.JMeter: java.awt.headless=null
+2020-04-13 01:50:29,696 INFO o.a.j.JMeter: Max memory     =1890582528
+2020-04-13 01:50:29,696 INFO o.a.j.JMeter: Available Processors =4
+2020-04-13 01:50:29,709 INFO o.a.j.JMeter: Default Locale=português (Brasil)
+2020-04-13 01:50:29,709 INFO o.a.j.JMeter: JMeter  Locale=português (Brasil)
+2020-04-13 01:50:29,709 INFO o.a.j.JMeter: JMeterHome=C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1
+2020-04-13 01:50:29,709 INFO o.a.j.JMeter: user.dir  =C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\bin
+2020-04-13 01:50:29,710 INFO o.a.j.JMeter: PWD       =C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\bin
+2020-04-13 01:50:29,727 INFO o.a.j.JMeter: IP: 192.168.1.84 Name: DESKTOP-E34GR96 FullName: DESKTOP-E34GR96.lan
+2020-04-13 01:50:30,037 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2020-04-13 01:50:30,063 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2020-04-13 01:50:30,069 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2020-04-13 01:50:30,215 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-04-13 01:50:32,619 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:50:32,620 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:50:32,620 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:50:32,620 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-13 01:50:32,620 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-04-13 01:50:32,621 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-04-13 01:50:33,093 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2020-04-13 01:50:33,094 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\bin\proxyserver.jks
+2020-04-13 01:50:33,277 INFO o.a.j.s.FileServer: Default base='C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\bin'
+2020-04-13 01:50:34,223 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-04-13 01:50:34,224 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-04-13 01:50:34,224 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-04-13 01:50:34,224 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:22:43" hostname="DESKTOP-E34GR96" time="0.53">
+  <properties/>
+  <testcase name="testCreateCookieManager(Path)" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.163"/>
+  <testcase name="testCreateCookieManagerHeader()" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.207"/>
+  <testcase name="testCreateAuthManager()" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.008"/>
+  <testcase name="testCanAddDnsResolverInHttpRequest()" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.003"/>
+  <testcase name="testCanAddAuthManagerInHttpRequest()" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.001"/>
+  <testcase name="testCanUpdateAuthManagerInThreadGroupt()" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.001"/>
+  <testcase name="testConfigureTimeout()" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.001"/>
+  <testcase name="testReadCurlCommandsFromFile(Path)" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.006"/>
+  <testcase name="testCanAddDnsServerInHttpRequest()" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.003"/>
+  <testcase name="testDnsServer()" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.005"/>
+  <testcase name="testParseCommandsException2()" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.014"/>
+  <testcase name="testCreateHeaderManager()" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.001"/>
+  <testcase name="testCreateHttpRequest()" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.017"/>
+  <testcase name="testParseCommands()" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.003"/>
+  <testcase name="testCreateProxyServer()" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.023"/>
+  <testcase name="testCreateCommentText()" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.001"/>
+  <testcase name="testReadCurlCommandsFromTextPanel()" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.0"/>
+  <testcase name="testCreateDnsResolver()" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.001"/>
+  <testcase name="testCreateSampler(Path)" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.045"/>
+  <testcase name="testDataFormException()" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.001"/>
+  <testcase name="testParseCommandsException()" classname="org.apache.jmeter.gui.action.ParseCurlCommandActionTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

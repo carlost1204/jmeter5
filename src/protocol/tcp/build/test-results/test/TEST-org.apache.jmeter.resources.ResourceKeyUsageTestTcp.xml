@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.resources.ResourceKeyUsageTestTcp" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:23:06" hostname="DESKTOP-E34GR96" time="0.101">
+  <properties/>
+  <testcase name="checkResourceReferences()" classname="org.apache.jmeter.resources.ResourceKeyUsageTestTcp" time="0.101"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

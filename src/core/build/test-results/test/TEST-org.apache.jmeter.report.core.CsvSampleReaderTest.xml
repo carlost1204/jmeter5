@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.report.core.CsvSampleReaderTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:42" hostname="DESKTOP-E34GR96" time="0.329">
+  <properties/>
+  <testcase name="testReadSample()" classname="org.apache.jmeter.report.core.CsvSampleReaderTest" time="0.304"/>
+  <testcase name="testClose()" classname="org.apache.jmeter.report.core.CsvSampleReaderTest" time="0.004"/>
+  <testcase name="testPeek()" classname="org.apache.jmeter.report.core.CsvSampleReaderTest" time="0.003"/>
+  <testcase name="testConstructorWithInvalidFile()" classname="org.apache.jmeter.report.core.CsvSampleReaderTest" time="0.009"/>
+  <testcase name="testGetMetadata()" classname="org.apache.jmeter.report.core.CsvSampleReaderTest" time="0.003"/>
+  <testcase name="testHasNextAndReadSample()" classname="org.apache.jmeter.report.core.CsvSampleReaderTest" time="0.003"/>
+  <system-out><![CDATA[Tidying up ...    @ Mon Apr 13 01:21:42 BRT 2020 (1586751702948)
+... end of run
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

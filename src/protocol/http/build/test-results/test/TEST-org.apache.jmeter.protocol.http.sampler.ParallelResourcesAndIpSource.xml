@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.protocol.http.sampler.ParallelResourcesAndIpSource" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:22:58" hostname="DESKTOP-E34GR96" time="2.207">
+  <properties/>
+  <testcase name="test(String, String, InetAddress, WireMockServer, JMeterVariables, TestInfo)[1]" classname="org.apache.jmeter.protocol.http.sampler.ParallelResourcesAndIpSource" time="1.925"/>
+  <testcase name="test(String, String, InetAddress, WireMockServer, JMeterVariables, TestInfo)[2]" classname="org.apache.jmeter.protocol.http.sampler.ParallelResourcesAndIpSource" time="0.005"/>
+  <testcase name="test(String, String, InetAddress, WireMockServer, JMeterVariables, TestInfo)[3]" classname="org.apache.jmeter.protocol.http.sampler.ParallelResourcesAndIpSource" time="0.029"/>
+  <testcase name="test(String, String, InetAddress, WireMockServer, JMeterVariables, TestInfo)[4]" classname="org.apache.jmeter.protocol.http.sampler.ParallelResourcesAndIpSource" time="0.005"/>
+  <testcase name="test(String, String, InetAddress, WireMockServer, JMeterVariables, TestInfo)[5]" classname="org.apache.jmeter.protocol.http.sampler.ParallelResourcesAndIpSource" time="0.005"/>
+  <testcase name="test(String, String, InetAddress, WireMockServer, JMeterVariables, TestInfo)[6]" classname="org.apache.jmeter.protocol.http.sampler.ParallelResourcesAndIpSource" time="0.023"/>
+  <testcase name="test(String, String, InetAddress, WireMockServer, JMeterVariables, TestInfo)[7]" classname="org.apache.jmeter.protocol.http.sampler.ParallelResourcesAndIpSource" time="0.004"/>
+  <testcase name="test(String, String, InetAddress, WireMockServer, JMeterVariables, TestInfo)[8]" classname="org.apache.jmeter.protocol.http.sampler.ParallelResourcesAndIpSource" time="0.036"/>
+  <testcase name="test(String, String, InetAddress, WireMockServer, JMeterVariables, TestInfo)[9]" classname="org.apache.jmeter.protocol.http.sampler.ParallelResourcesAndIpSource" time="0.061"/>
+  <testcase name="test(String, String, InetAddress, WireMockServer, JMeterVariables, TestInfo)[10]" classname="org.apache.jmeter.protocol.http.sampler.ParallelResourcesAndIpSource" time="0.015"/>
+  <testcase name="test(String, String, InetAddress, WireMockServer, JMeterVariables, TestInfo)[11]" classname="org.apache.jmeter.protocol.http.sampler.ParallelResourcesAndIpSource" time="0.015"/>
+  <testcase name="test(String, String, InetAddress, WireMockServer, JMeterVariables, TestInfo)[12]" classname="org.apache.jmeter.protocol.http.sampler.ParallelResourcesAndIpSource" time="0.012"/>
+  <testcase name="test(String, String, InetAddress, WireMockServer, JMeterVariables, TestInfo)[13]" classname="org.apache.jmeter.protocol.http.sampler.ParallelResourcesAndIpSource" time="0.017"/>
+  <testcase name="test(String, String, InetAddress, WireMockServer, JMeterVariables, TestInfo)[14]" classname="org.apache.jmeter.protocol.http.sampler.ParallelResourcesAndIpSource" time="0.014"/>
+  <testcase name="test(String, String, InetAddress, WireMockServer, JMeterVariables, TestInfo)[15]" classname="org.apache.jmeter.protocol.http.sampler.ParallelResourcesAndIpSource" time="0.014"/>
+  <testcase name="test(String, String, InetAddress, WireMockServer, JMeterVariables, TestInfo)[16]" classname="org.apache.jmeter.protocol.http.sampler.ParallelResourcesAndIpSource" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

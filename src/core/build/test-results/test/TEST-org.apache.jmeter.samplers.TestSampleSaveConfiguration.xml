@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.samplers.TestSampleSaveConfiguration" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:48" hostname="DESKTOP-E34GR96" time="0.034">
+  <properties/>
+  <testcase name="testFormatter()" classname="org.apache.jmeter.samplers.TestSampleSaveConfiguration" time="0.026"/>
+  <testcase name="testFalseTrue()" classname="org.apache.jmeter.samplers.TestSampleSaveConfiguration" time="0.0"/>
+  <testcase name="testClone()" classname="org.apache.jmeter.samplers.TestSampleSaveConfiguration" time="0.001"/>
+  <testcase name="testFalse()" classname="org.apache.jmeter.samplers.TestSampleSaveConfiguration" time="0.001"/>
+  <testcase name="testTrue()" classname="org.apache.jmeter.samplers.TestSampleSaveConfiguration" time="0.0"/>
+  <testcase name="testSaveConfigNames()" classname="org.apache.jmeter.samplers.TestSampleSaveConfiguration" time="0.001"/>
+  <testcase name="testEqualsAndHashCode()" classname="org.apache.jmeter.samplers.TestSampleSaveConfiguration" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

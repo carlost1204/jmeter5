@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClientSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:59" hostname="DESKTOP-E34GR96" time="2.479">
+  <properties/>
+  <testcase name="setupTest with default config does not raise an exception" classname="org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClientSpec" time="0.113"/>
+  <testcase name="Sending metrics when empty does not raise an exception" classname="org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClientSpec" time="2.352"/>
+  <testcase name="Default parameters are equal to default args" classname="org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClientSpec" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

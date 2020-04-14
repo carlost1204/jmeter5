@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.JMeterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:41" hostname="DESKTOP-E34GR96" time="0.987">
+  <properties/>
+  <testcase name="testFailureWhenJmxDoesntExist()" classname="org.apache.jmeter.JMeterTest" time="0.02"/>
+  <testcase name="testSuccessWhenJmxExists()" classname="org.apache.jmeter.JMeterTest" time="0.937"/>
+  <testcase name="testFailureWithMissingPlugin()" classname="org.apache.jmeter.JMeterTest" time="0.029"/>
+  <system-out><![CDATA[Created the tree successfully using C:\Users\Carlos\AppData\Local\Temp\testPlan1381922706971733301.jmx
+Starting standalone test @ Mon Apr 13 01:21:42 BRT 2020 (1586751702567)
+Error in NonGUIDriver java.lang.IllegalArgumentException: Problem loading XML from:'C:\Users\Carlos\AppData\Local\Temp\testPlan7546211090220979472.jmx'. 
+Cause:
+CannotResolveClassException: kg.apc.jmeter.samplers.DummySampler
+
+ Detail:com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+first-jmeter-class  : org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67)
+class               : org.apache.jmeter.save.ScriptWrapper
+required-type       : org.apache.jmeter.save.ScriptWrapper
+converter-type      : org.apache.jmeter.save.ScriptWrapperConverter
+path                : /jmeterTestPlan/hashTree/hashTree/hashTree/kg.apc.jmeter.samplers.DummySampler
+line number         : 16
+version             : not available
+-------------------------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

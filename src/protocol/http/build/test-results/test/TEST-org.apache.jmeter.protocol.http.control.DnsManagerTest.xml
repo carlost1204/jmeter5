@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.protocol.http.control.DnsManagerTest" tests="2" skipped="1" failures="0" errors="0" timestamp="2020-04-13T04:22:47" hostname="DESKTOP-E34GR96" time="6.387">
+  <properties/>
+  <testcase name="badDnsInCustomResolverShouldFailHttpSampler(String, WireMockServer)[1]" classname="org.apache.jmeter.protocol.http.control.DnsManagerTest" time="6.378"/>
+  <testcase name="badDnsInCustomResolverShouldFailHttpSampler(String, WireMockServer)[2]" classname="org.apache.jmeter.protocol.http.control.DnsManagerTest" time="0.006">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

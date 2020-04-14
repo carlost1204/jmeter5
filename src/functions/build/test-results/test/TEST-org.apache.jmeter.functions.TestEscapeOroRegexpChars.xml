@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.functions.TestEscapeOroRegexpChars" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:22:18" hostname="DESKTOP-E34GR96" time="0.017">
+  <properties/>
+  <testcase name="testEscapeWithVars()" classname="org.apache.jmeter.functions.TestEscapeOroRegexpChars" time="0.009"/>
+  <testcase name="testEscape2()" classname="org.apache.jmeter.functions.TestEscapeOroRegexpChars" time="0.0"/>
+  <testcase name="testNOEscape()" classname="org.apache.jmeter.functions.TestEscapeOroRegexpChars" time="0.001"/>
+  <testcase name="testEscapeSpace()" classname="org.apache.jmeter.functions.TestEscapeOroRegexpChars" time="0.001"/>
+  <testcase name="testParameterCount()" classname="org.apache.jmeter.functions.TestEscapeOroRegexpChars" time="0.001"/>
+  <testcase name="testEscape()" classname="org.apache.jmeter.functions.TestEscapeOroRegexpChars" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

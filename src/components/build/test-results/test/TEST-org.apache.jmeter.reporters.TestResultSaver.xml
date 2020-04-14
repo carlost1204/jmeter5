@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.reporters.TestResultSaver" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:47" hostname="DESKTOP-E34GR96" time="0.021">
+  <properties/>
+  <testcase name="testFailureSaveErrorsOnly()" classname="org.apache.jmeter.reporters.TestResultSaver" time="0.011"/>
+  <testcase name="testSuccessWithVariable()" classname="org.apache.jmeter.reporters.TestResultSaver" time="0.005"/>
+  <testcase name="testSuccessSaveErrorsOnly()" classname="org.apache.jmeter.reporters.TestResultSaver" time="0.001"/>
+  <testcase name="testMakeFileName()" classname="org.apache.jmeter.reporters.TestResultSaver" time="0.001"/>
+  <testcase name="testSuccess()" classname="org.apache.jmeter.reporters.TestResultSaver" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

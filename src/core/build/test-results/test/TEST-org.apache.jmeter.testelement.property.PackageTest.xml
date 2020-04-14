@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.testelement.property.PackageTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:48" hostname="DESKTOP-E34GR96" time="0.014">
+  <properties/>
+  <testcase name="testStringEquality()" classname="org.apache.jmeter.testelement.property.PackageTest" time="0.001"/>
+  <testcase name="testDoubleEquality()" classname="org.apache.jmeter.testelement.property.PackageTest" time="0.0"/>
+  <testcase name="testElementProperty()" classname="org.apache.jmeter.testelement.property.PackageTest" time="0.0"/>
+  <testcase name="testLongEquality()" classname="org.apache.jmeter.testelement.property.PackageTest" time="0.0"/>
+  <testcase name="testMapEquality()" classname="org.apache.jmeter.testelement.property.PackageTest" time="0.001"/>
+  <testcase name="testAddingProperties()" classname="org.apache.jmeter.testelement.property.PackageTest" time="0.001"/>
+  <testcase name="testBooleanEquality()" classname="org.apache.jmeter.testelement.property.PackageTest" time="0.001"/>
+  <testcase name="testStringProperty()" classname="org.apache.jmeter.testelement.property.PackageTest" time="0.001"/>
+  <testcase name="testFloatEquality()" classname="org.apache.jmeter.testelement.property.PackageTest" time="0.002"/>
+  <testcase name="testNullEquality()" classname="org.apache.jmeter.testelement.property.PackageTest" time="0.001"/>
+  <testcase name="testIntegerEquality()" classname="org.apache.jmeter.testelement.property.PackageTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

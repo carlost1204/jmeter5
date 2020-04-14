@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.22">
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\ftp\src\main\java\org\apache\jmeter\protocol\ftp\config\gui\FtpConfigGui.java">
+</file>
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\ftp\src\main\java\org\apache\jmeter\protocol\ftp\control\gui\FtpTestSamplerGui.java">
+</file>
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\ftp\src\main\java\org\apache\jmeter\protocol\ftp\sampler\FTPSampler.java">
+</file>
+</checkstyle>

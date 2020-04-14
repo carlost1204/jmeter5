@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.engine.LocalHostTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:37" hostname="DESKTOP-E34GR96" time="2.738">
+  <properties/>
+  <testcase name="testLocalHost()" classname="org.apache.jmeter.engine.LocalHostTest" time="0.005"/>
+  <testcase name="testInterfaces()" classname="org.apache.jmeter.engine.LocalHostTest" time="2.732"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[java.rmi.server.hostname=null
+DESKTOP-E34GR96/192.168.1.84
+isSiteLocalAddress:true
+isAnyLocalAddress:false
+isLinkLocalAddress:false
+isLoopbackAddress:false
+isMulticastAddress:false
+localhost/127.0.0.1
+isSiteLocalAddress:false
+isAnyLocalAddress:false
+isLinkLocalAddress:false
+isLoopbackAddress:true
+isMulticastAddress:false
+====================
+DESKTOP-E34GR96/192.168.1.84
+isSiteLocalAddress:true
+isAnyLocalAddress:false
+isLinkLocalAddress:false
+isLoopbackAddress:false
+isMulticastAddress:false
+====================
+DESKTOP-E34GR96/fe80:0:0:0:ac3d:62de:5444:fc76%10
+isSiteLocalAddress:false
+isAnyLocalAddress:false
+isLinkLocalAddress:true
+isLoopbackAddress:false
+isMulticastAddress:false
+====================
+DESKTOP-E34GR96/fd60:879b:aec6:3:257a:86b:dd17:62da
+isSiteLocalAddress:false
+isAnyLocalAddress:false
+isLinkLocalAddress:false
+isLoopbackAddress:false
+isMulticastAddress:false
+====================
+DESKTOP-E34GR96/fd60:879b:aec6:3:ac3d:62de:5444:fc76
+isSiteLocalAddress:false
+isAnyLocalAddress:false
+isLinkLocalAddress:false
+isLoopbackAddress:false
+isMulticastAddress:false
+Interfaces: {name:lo (Software Loopback Interface 1) => [/127.0.0.1/8 [/127.255.255.255], /0:0:0:0:0:0:0:1/128 [null]], name:net0 (Microsoft 6to4 Adapter) => [], name:wlan0 (Microsoft Wi-Fi Direct Virtual Adapter #2) => [/fe80:0:0:0:7842:1e13:2170:c761%wlan0/64 [null]], name:net1 (Microsoft IP-HTTPS Platform Adapter) => [], name:eth0 (Realtek PCIe FE Family Controller) => [/fe80:0:0:0:113d:971e:8eb6:5c4b%eth0/64 [null]], name:eth1 (Microsoft Kernel Debug Network Adapter) => [], name:eth2 (VirtualBox Host-Only Ethernet Adapter) => [], name:wlan1 (Microsoft Wi-Fi Direct Virtual Adapter) => [/fe80:0:0:0:44ad:37cc:9f71:cde3%wlan1/64 [null]], name:net2 (Microsoft Teredo Tunneling Adapter) => [], name:wlan2 (Qualcomm Atheros QCA9377 Wireless Network Adapter) => [/192.168.1.84/24 [/192.168.1.255], /fd60:879b:aec6:3:ac3d:62de:5444:fc76/64 [null], /fd60:879b:aec6:3:257a:86b:dd17:62da/128 [null], /fd60:879b:aec6:3:cd32:205f:5164:82da/128 [null], /fe80:0:0:0:ac3d:62de:5444:fc76%wlan2/128 [null]], name:eth3 (VirtualBox Host-Only Ethernet Adapter #2) => [], name:eth4 (Bluetooth Device (Personal Area Network)) => [/fe80:0:0:0:20ca:d923:15b0:1d46%eth4/64 [null]], name:eth5 (Realtek PCIe FE Family Controller-WFP Native MAC Layer LightWeight Filter-0000) => [], name:eth6 (Realtek PCIe FE Family Controller-VirtualBox NDIS Light-Weight Filter-0000) => [], name:eth7 (Realtek PCIe FE Family Controller-QoS Packet Scheduler-0000) => [], name:eth8 (Realtek PCIe FE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000) => [], name:wlan3 (Qualcomm Atheros QCA9377 Wireless Network Adapter-WFP Native MAC Layer LightWeight Filter-0000) => [], name:wlan4 (Qualcomm Atheros QCA9377 Wireless Network Adapter-Virtual WiFi Filter Driver-0000) => [], name:wlan5 (Qualcomm Atheros QCA9377 Wireless Network Adapter-Native WiFi Filter Driver-0000) => [], name:wlan6 (Qualcomm Atheros QCA9377 Wireless Network Adapter-VirtualBox NDIS Light-Weight Filter-0000) => [], name:wlan7 (Qualcomm Atheros QCA9377 Wireless Network Adapter-QoS Packet Scheduler-0000) => [], name:wlan8 (Qualcomm Atheros QCA9377 Wireless Network Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000) => [], name:wlan9 (Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000) => [], name:wlan10 (Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000) => [], name:wlan11 (Microsoft Wi-Fi Direct Virtual Adapter-VirtualBox NDIS Light-Weight Filter-0000) => [], name:wlan12 (Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000) => [], name:wlan13 (Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000) => [], name:wlan14 (Microsoft Wi-Fi Direct Virtual Adapter #2-WFP Native MAC Layer LightWeight Filter-0000) => [], name:wlan15 (Microsoft Wi-Fi Direct Virtual Adapter #2-Native WiFi Filter Driver-0000) => [], name:wlan16 (Microsoft Wi-Fi Direct Virtual Adapter #2-VirtualBox NDIS Light-Weight Filter-0000) => [], name:wlan17 (Microsoft Wi-Fi Direct Virtual Adapter #2-QoS Packet Scheduler-0000) => [], name:wlan18 (Microsoft Wi-Fi Direct Virtual Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000) => [], name:net3 (WAN Miniport (SSTP)) => [], name:net4 (WAN Miniport (IKEv2)) => [], name:net5 (WAN Miniport (L2TP)) => [], name:net6 (WAN Miniport (PPTP)) => [], name:ppp0 (WAN Miniport (PPPOE)) => [], name:eth9 (WAN Miniport (IP)) => [], name:eth10 (WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000) => [], name:eth11 (WAN Miniport (IP)-QoS Packet Scheduler-0000) => [], name:eth12 (WAN Miniport (IPv6)) => [], name:eth13 (WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000) => [], name:eth14 (WAN Miniport (IPv6)-QoS Packet Scheduler-0000) => [], name:eth15 (WAN Miniport (Network Monitor)) => [], name:eth16 (WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000) => [], name:eth17 (WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000) => []}
+Choose 192.168.1.84 to talk to external services
+java.rmi.server.hostname=null
+]]></system-err>
+</testsuite>

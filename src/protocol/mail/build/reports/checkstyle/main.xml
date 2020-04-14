@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.22">
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\mail\src\main\java\org\apache\jmeter\protocol\mail\sampler\MailFileFolder.java">
+</file>
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\mail\src\main\java\org\apache\jmeter\protocol\mail\sampler\MailFileMessage.java">
+</file>
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\mail\src\main\java\org\apache\jmeter\protocol\mail\sampler\MailFileStore.java">
+</file>
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\mail\src\main\java\org\apache\jmeter\protocol\mail\sampler\MailReaderSampler.java">
+</file>
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\mail\src\main\java\org\apache\jmeter\protocol\mail\sampler\gui\MailReaderSamplerGui.java">
+</file>
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\mail\src\main\java\org\apache\jmeter\protocol\smtp\sampler\SmtpSampler.java">
+</file>
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\mail\src\main\java\org\apache\jmeter\protocol\smtp\sampler\gui\SecuritySettingsPanel.java">
+</file>
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\mail\src\main\java\org\apache\jmeter\protocol\smtp\sampler\gui\SmtpPanel.java">
+</file>
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\mail\src\main\java\org\apache\jmeter\protocol\smtp\sampler\gui\SmtpSamplerGui.java">
+</file>
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\mail\src\main\java\org\apache\jmeter\protocol\smtp\sampler\protocol\LocalTrustStoreSSLSocketFactory.java">
+</file>
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\mail\src\main\java\org\apache\jmeter\protocol\smtp\sampler\protocol\SendMailCommand.java">
+</file>
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\mail\src\main\java\org\apache\jmeter\protocol\smtp\sampler\protocol\SynchronousTransportListener.java">
+</file>
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\mail\src\main\java\org\apache\jmeter\protocol\smtp\sampler\protocol\TrustAllSSLSocketFactory.java">
+</file>
+</checkstyle>

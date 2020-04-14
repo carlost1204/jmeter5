@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.22">
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\mail\src\test\java\org\apache\jmeter\protocol\mail\sampler\TestMailReaderSampler.java">
+</file>
+<file name="C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\protocol\mail\src\test\java\org\apache\jmeter\resources\ResourceKeyUsageTestMail.java">
+</file>
+</checkstyle>

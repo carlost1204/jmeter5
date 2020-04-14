@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.assertions.XPath2AssertionTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:39" hostname="DESKTOP-E34GR96" time="2.614">
+  <properties/>
+  <testcase name="testXPath2AssertionPathWithoutNamespace()" classname="org.apache.jmeter.assertions.XPath2AssertionTest" time="2.281"/>
+  <testcase name="testValidateXPath2()" classname="org.apache.jmeter.assertions.XPath2AssertionTest" time="0.065"/>
+  <testcase name="testXPath2AssertionBool1()" classname="org.apache.jmeter.assertions.XPath2AssertionTest" time="0.172"/>
+  <testcase name="testXPath2AssertionBool2()" classname="org.apache.jmeter.assertions.XPath2AssertionTest" time="0.005"/>
+  <testcase name="testXPath2AssertionPath1()" classname="org.apache.jmeter.assertions.XPath2AssertionTest" time="0.018"/>
+  <testcase name="testXPath2AssertionPath2()" classname="org.apache.jmeter.assertions.XPath2AssertionTest" time="0.018"/>
+  <testcase name="testXPath2AssertionBool1Negated()" classname="org.apache.jmeter.assertions.XPath2AssertionTest" time="0.006"/>
+  <testcase name="testScope()" classname="org.apache.jmeter.assertions.XPath2AssertionTest" time="0.004"/>
+  <testcase name="testBadXpathFormat()" classname="org.apache.jmeter.assertions.XPath2AssertionTest" time="0.002"/>
+  <testcase name="testXPath2AssertionPath2Negated()" classname="org.apache.jmeter.assertions.XPath2AssertionTest" time="0.005"/>
+  <testcase name="testXPath2AssertionBool2Negated()" classname="org.apache.jmeter.assertions.XPath2AssertionTest" time="0.004"/>
+  <testcase name="testScopeFailure()" classname="org.apache.jmeter.assertions.XPath2AssertionTest" time="0.011"/>
+  <testcase name="testResponseDataIsEmpty()" classname="org.apache.jmeter.assertions.XPath2AssertionTest" time="0.001"/>
+  <testcase name="testXPath2AssertionPath1Negated()" classname="org.apache.jmeter.assertions.XPath2AssertionTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,2 @@
+2020-04-13 01:22:55,186 INFO o.a.j.u.JMeterUtils: Setting Locale to ignoreresources
+2020-04-13 01:22:55,247 ERROR o.a.j.u.JMeterUtils: Could not find resources for 'ignoreresources'

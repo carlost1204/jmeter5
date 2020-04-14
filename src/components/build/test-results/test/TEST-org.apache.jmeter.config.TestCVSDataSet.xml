@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.config.TestCVSDataSet" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:43" hostname="DESKTOP-E34GR96" time="0.151">
+  <properties/>
+  <testcase name="testHeaderQuotes()" classname="org.apache.jmeter.config.TestCVSDataSet" time="0.057"/>
+  <testcase name="testopen()" classname="org.apache.jmeter.config.TestCVSDataSet" time="0.003"/>
+  <testcase name="testutf8()" classname="org.apache.jmeter.config.TestCVSDataSet" time="0.002"/>
+  <testcase name="testShareMode()" classname="org.apache.jmeter.config.TestCVSDataSet" time="0.076"/>
+  <testcase name="testHeaderOpenAndRecycle()" classname="org.apache.jmeter.config.TestCVSDataSet" time="0.008"/>
+  <testcase name="testHeaderOpen()" classname="org.apache.jmeter.config.TestCVSDataSet" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

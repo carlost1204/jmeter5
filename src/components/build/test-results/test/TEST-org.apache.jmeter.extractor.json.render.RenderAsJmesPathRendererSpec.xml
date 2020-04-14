@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.extractor.json.render.RenderAsJmesPathRendererSpec" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:57" hostname="DESKTOP-E34GR96" time="0.854">
+  <properties/>
+  <testcase name="init of component doesn't fail" classname="org.apache.jmeter.extractor.json.render.RenderAsJmesPathRendererSpec" time="0.048"/>
+  <testcase name="render image" classname="org.apache.jmeter.extractor.json.render.RenderAsJmesPathRendererSpec" time="0.192"/>
+  <testcase name="render null Response" classname="org.apache.jmeter.extractor.json.render.RenderAsJmesPathRendererSpec" time="0.412"/>
+  <testcase name="render '#input' as JSON Response to '#output'" classname="org.apache.jmeter.extractor.json.render.RenderAsJmesPathRendererSpec" time="0.018"/>
+  <testcase name="execute '#expression' on '#input' results into '#output'" classname="org.apache.jmeter.extractor.json.render.RenderAsJmesPathRendererSpec" time="0.13"/>
+  <testcase name="clearData clears expected fields" classname="org.apache.jmeter.extractor.json.render.RenderAsJmesPathRendererSpec" time="0.011"/>
+  <testcase name="setupTabPane adds the tab to rightSide" classname="org.apache.jmeter.extractor.json.render.RenderAsJmesPathRendererSpec" time="0.032"/>
+  <testcase name="setupTabPane called twice does not add twice the tab" classname="org.apache.jmeter.extractor.json.render.RenderAsJmesPathRendererSpec" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.extractor.json.render.RenderAsJsonRendererSpec" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:58" hostname="DESKTOP-E34GR96" time="0.127">
+  <properties/>
+  <testcase name="init of component doesn't fail" classname="org.apache.jmeter.extractor.json.render.RenderAsJsonRendererSpec" time="0.028"/>
+  <testcase name="render image" classname="org.apache.jmeter.extractor.json.render.RenderAsJsonRendererSpec" time="0.009"/>
+  <testcase name="render null Response" classname="org.apache.jmeter.extractor.json.render.RenderAsJsonRendererSpec" time="0.009"/>
+  <testcase name="render '#input' as JSON Response to '#output'" classname="org.apache.jmeter.extractor.json.render.RenderAsJsonRendererSpec" time="0.025"/>
+  <testcase name="execute '#expression' on '#input' results into '#output'" classname="org.apache.jmeter.extractor.json.render.RenderAsJsonRendererSpec" time="0.029"/>
+  <testcase name="clearData clears expected fields" classname="org.apache.jmeter.extractor.json.render.RenderAsJsonRendererSpec" time="0.008"/>
+  <testcase name="setupTabPane adds the tab to rightSide" classname="org.apache.jmeter.extractor.json.render.RenderAsJsonRendererSpec" time="0.007"/>
+  <testcase name="setupTabPane called twice does not add twice the tab" classname="org.apache.jmeter.extractor.json.render.RenderAsJsonRendererSpec" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

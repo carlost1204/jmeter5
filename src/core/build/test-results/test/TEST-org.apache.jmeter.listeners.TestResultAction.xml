@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.listeners.TestResultAction" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:42" hostname="DESKTOP-E34GR96" time="0.063">
+  <properties/>
+  <testcase name="testOnFailureStopThread()" classname="org.apache.jmeter.listeners.TestResultAction" time="0.056"/>
+  <testcase name="testOnFailureStartNextThreadLoop()" classname="org.apache.jmeter.listeners.TestResultAction" time="0.003"/>
+  <testcase name="testOnFailureStopTest()" classname="org.apache.jmeter.listeners.TestResultAction" time="0.001"/>
+  <testcase name="testOnFailureStopTestNow()" classname="org.apache.jmeter.listeners.TestResultAction" time="0.0"/>
+  <testcase name="testSuccess()" classname="org.apache.jmeter.listeners.TestResultAction" time="0.0"/>
+  <system-out><![CDATA[Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.protocol.http.sampler.TestDecompression" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:23:00" hostname="DESKTOP-E34GR96" time="0.508">
+  <properties/>
+  <testcase name="mockServer(String, ClientGzip, ServerGzip)[1]" classname="org.apache.jmeter.protocol.http.sampler.TestDecompression" time="0.206"/>
+  <testcase name="mockServer(String, ClientGzip, ServerGzip)[2]" classname="org.apache.jmeter.protocol.http.sampler.TestDecompression" time="0.044"/>
+  <testcase name="mockServer(String, ClientGzip, ServerGzip)[3]" classname="org.apache.jmeter.protocol.http.sampler.TestDecompression" time="0.047"/>
+  <testcase name="mockServer(String, ClientGzip, ServerGzip)[4]" classname="org.apache.jmeter.protocol.http.sampler.TestDecompression" time="0.032"/>
+  <testcase name="mockServer(String, ClientGzip, ServerGzip)[5]" classname="org.apache.jmeter.protocol.http.sampler.TestDecompression" time="0.031"/>
+  <testcase name="mockServer(String, ClientGzip, ServerGzip)[6]" classname="org.apache.jmeter.protocol.http.sampler.TestDecompression" time="0.036"/>
+  <testcase name="mockServer(String, ClientGzip, ServerGzip)[7]" classname="org.apache.jmeter.protocol.http.sampler.TestDecompression" time="0.036"/>
+  <testcase name="mockServer(String, ClientGzip, ServerGzip)[8]" classname="org.apache.jmeter.protocol.http.sampler.TestDecompression" time="0.066"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.samplers.TestSampleResult" tests="18" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:44" hostname="DESKTOP-E34GR96" time="4.497">
+  <properties/>
+  <testcase name="testSubResultsFalsePause()" classname="org.apache.jmeter.samplers.TestSampleResult" time="0.467"/>
+  <testcase name="testByteCount()" classname="org.apache.jmeter.samplers.TestSampleResult" time="0.001"/>
+  <testcase name="testElapsedTrue()" classname="org.apache.jmeter.samplers.TestSampleResult" time="0.149"/>
+  <testcase name="testElapsedFalse()" classname="org.apache.jmeter.samplers.TestSampleResult" time="0.144"/>
+  <testcase name="testSubResultsTruePauseThread()" classname="org.apache.jmeter.samplers.TestSampleResult" time="0.538"/>
+  <testcase name="testBug63433()" classname="org.apache.jmeter.samplers.TestSampleResult" time="0.0"/>
+  <testcase name="testPause2True()" classname="org.apache.jmeter.samplers.TestSampleResult" time="0.001"/>
+  <testcase name="testPauseFalse()" classname="org.apache.jmeter.samplers.TestSampleResult" time="0.437"/>
+  <testcase name="testSubResultsFalsePauseThread()" classname="org.apache.jmeter.samplers.TestSampleResult" time="0.442"/>
+  <testcase name="testEncodingAndType()" classname="org.apache.jmeter.samplers.TestSampleResult" time="0.0"/>
+  <testcase name="testSubResultsTruePause()" classname="org.apache.jmeter.samplers.TestSampleResult" time="0.431"/>
+  <testcase name="testCompareSampleLabels()" classname="org.apache.jmeter.samplers.TestSampleResult" time="0.0"/>
+  <testcase name="testSubResultsFalse()" classname="org.apache.jmeter.samplers.TestSampleResult" time="0.326"/>
+  <testcase name="testPause2False()" classname="org.apache.jmeter.samplers.TestSampleResult" time="0.001"/>
+  <testcase name="testSubResultsFalseThread()" classname="org.apache.jmeter.samplers.TestSampleResult" time="0.473"/>
+  <testcase name="testPauseTrue()" classname="org.apache.jmeter.samplers.TestSampleResult" time="0.444"/>
+  <testcase name="testSubResultsTrue()" classname="org.apache.jmeter.samplers.TestSampleResult" time="0.317"/>
+  <testcase name="testSubResultsTrueThread()" classname="org.apache.jmeter.samplers.TestSampleResult" time="0.304"/>
+  <system-out><![CDATA[The JVM should have exited but did not.
+The following non-daemon threads are still running (DestroyJavaVM is OK):
+Thread[/127.0.0.1:55409 to /127.0.0.1:55408 workers Thread 2,5,main], stackTrace:sun.misc.Unsafe#park
+java.util.concurrent.locks.LockSupport#park at line:175
+java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject#await at line:2039
+org.gradle.internal.remote.internal.hub.queue.EndPointQueue#take at line:49
+org.gradle.internal.remote.internal.hub.MessageHub$ConnectionDispatch#run at line:320
+org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures#onExecute at line:64
+org.gradle.internal.concurrent.ManagedExecutorImpl$1#run at line:48
+java.util.concurrent.ThreadPoolExecutor#runWorker at line:1149
+java.util.concurrent.ThreadPoolExecutor$Worker#run at line:624
+org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable#run at line:56
+java.lang.Thread#run at line:748
+
+Thread[Test worker,5,main], stackTrace:java.lang.Object#wait
+java.util.concurrent.ForkJoinTask#externalInterruptibleAwaitDone at line:367
+java.util.concurrent.ForkJoinTask#get at line:1001
+org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine#execute at line:51
+org.junit.platform.launcher.core.DefaultLauncher#execute at line:220
+org.junit.platform.launcher.core.DefaultLauncher#lambda$execute$6 at line:188
+org.junit.platform.launcher.core.DefaultLauncher$$Lambda$166/1363404305#accept
+org.junit.platform.launcher.core.DefaultLauncher#withInterceptedStreams at line:202
+org.junit.platform.launcher.core.DefaultLauncher#execute at line:181
+org.junit.platform.launcher.core.DefaultLauncher#execute at line:128
+org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor#processAllTestClasses at line:99
+org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor#access$000 at line:79
+org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor#stop at line:75
+org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor#stop at line:61
+sun.reflect.NativeMethodAccessorImpl#invoke0
+sun.reflect.NativeMethodAccessorImpl#invoke at line:62
+sun.reflect.DelegatingMethodAccessorImpl#invoke at line:43
+java.lang.reflect.Method#invoke at line:498
+org.gradle.internal.dispatch.ReflectionDispatch#dispatch at line:36
+org.gradle.internal.dispatch.ReflectionDispatch#dispatch at line:24
+org.gradle.internal.dispatch.ContextClassLoaderDispatch#dispatch at line:33
+org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler#invoke at line:94
+com.sun.proxy.$Proxy2#stop
+org.gradle.api.internal.tasks.testing.worker.TestWorker#stop at line:132
+sun.reflect.NativeMethodAccessorImpl#invoke0
+sun.reflect.NativeMethodAccessorImpl#invoke at line:62
+sun.reflect.DelegatingMethodAccessorImpl#invoke at line:43
+java.lang.reflect.Method#invoke at line:498
+org.gradle.internal.dispatch.ReflectionDispatch#dispatch at line:36
+org.gradle.internal.dispatch.ReflectionDispatch#dispatch at line:24
+org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper#dispatch at line:182
+org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper#dispatch at line:164
+org.gradle.internal.remote.internal.hub.MessageHub$Handler#run at line:412
+org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures#onExecute at line:64
+org.gradle.internal.concurrent.ManagedExecutorImpl$1#run at line:48
+java.util.concurrent.ThreadPoolExecutor#runWorker at line:1149
+java.util.concurrent.ThreadPoolExecutor$Worker#run at line:624
+org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable#run at line:56
+java.lang.Thread#run at line:748
+
+Thread[/127.0.0.1:55409 to /127.0.0.1:55408 workers Thread 3,5,main], stackTrace:sun.nio.ch.WindowsSelectorImpl$SubSelector#poll0
+sun.nio.ch.WindowsSelectorImpl$SubSelector#poll at line:296
+sun.nio.ch.WindowsSelectorImpl$SubSelector#access$400 at line:278
+sun.nio.ch.WindowsSelectorImpl#doSelect at line:159
+sun.nio.ch.SelectorImpl#lockAndDoSelect at line:86
+sun.nio.ch.SelectorImpl#select at line:97
+sun.nio.ch.SelectorImpl#select at line:101
+org.gradle.internal.remote.internal.inet.SocketConnection$SocketInputStream#read at line:185
+com.esotericsoftware.kryo.io.Input#fill at line:146
+com.esotericsoftware.kryo.io.Input#require at line:178
+com.esotericsoftware.kryo.io.Input#readByte at line:295
+org.gradle.internal.serialize.kryo.KryoBackedDecoder#readByte at line:81
+org.gradle.internal.remote.internal.hub.InterHubMessageSerializer$MessageReader#read at line:64
+org.gradle.internal.remote.internal.hub.InterHubMessageSerializer$MessageReader#read at line:52
+org.gradle.internal.remote.internal.inet.SocketConnection#receive at line:81
+org.gradle.internal.remote.internal.hub.MessageHub$ConnectionReceive#run at line:268
+org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures#onExecute at line:64
+org.gradle.internal.concurrent.ManagedExecutorImpl$1#run at line:48
+java.util.concurrent.ThreadPoolExecutor#runWorker at line:1149
+java.util.concurrent.ThreadPoolExecutor$Worker#run at line:624
+org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable#run at line:56
+java.lang.Thread#run at line:748
+
+Thread[main,5,main], stackTrace:sun.misc.Unsafe#park
+java.util.concurrent.locks.LockSupport#park at line:175
+java.util.concurrent.locks.AbstractQueuedSynchronizer#parkAndCheckInterrupt at line:836
+java.util.concurrent.locks.AbstractQueuedSynchronizer#doAcquireSharedInterruptibly at line:997
+java.util.concurrent.locks.AbstractQueuedSynchronizer#acquireSharedInterruptibly at line:1304
+java.util.concurrent.CountDownLatch#await at line:231
+org.gradle.api.internal.tasks.testing.worker.TestWorker#execute at line:72
+org.gradle.api.internal.tasks.testing.worker.TestWorker#execute at line:46
+org.gradle.process.internal.worker.child.ActionExecutionWorker#execute at line:91
+org.gradle.process.internal.worker.child.ActionExecutionWorker#execute at line:34
+org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker#call at line:137
+org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker#call at line:69
+worker.org.gradle.process.internal.worker.GradleWorkerMain#run at line:68
+worker.org.gradle.process.internal.worker.GradleWorkerMain#main at line:73
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

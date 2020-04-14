@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.protocol.http.control.TestAuthManager" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:22:54" hostname="DESKTOP-E34GR96" time="0.016">
+  <properties/>
+  <testcase name="testAddFileWithDomainAndRealmAndDefaultMechanism()" classname="org.apache.jmeter.protocol.http.control.TestAuthManager" time="0.004"/>
+  <testcase name="testHttps()" classname="org.apache.jmeter.protocol.http.control.TestAuthManager" time="0.004"/>
+  <testcase name="testFile()" classname="org.apache.jmeter.protocol.http.control.TestAuthManager" time="0.002"/>
+  <testcase name="testHttp()" classname="org.apache.jmeter.protocol.http.control.TestAuthManager" time="0.0"/>
+  <testcase name="testAddFileWithoutDomainAndRealmWithMechanism()" classname="org.apache.jmeter.protocol.http.control.TestAuthManager" time="0.002"/>
+  <testcase name="testAddFileWithDomainAndRealmAndMechanism()" classname="org.apache.jmeter.protocol.http.control.TestAuthManager" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

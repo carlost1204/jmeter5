@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jorphan.util.ConverterSpec" tests="32" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:22:29" hostname="DESKTOP-E34GR96" time="0.595">
+  <properties/>
+  <testcase name="convert null to null should give &quot;&quot; when value or type is null" classname="org.apache.jorphan.util.ConverterSpec" time="0.005"/>
+  <testcase name="convert anything to null should give &quot;&quot; when value or type is null" classname="org.apache.jorphan.util.ConverterSpec" time="0.0"/>
+  <testcase name="convert 23 to null should give &quot;&quot; when value or type is null" classname="org.apache.jorphan.util.ConverterSpec" time="0.001"/>
+  <testcase name="convert null to class java.lang.String should give &quot;&quot; when value or type is null" classname="org.apache.jorphan.util.ConverterSpec" time="0.0"/>
+  <testcase name="convert null to class java.lang.Number should give &quot;&quot; when value or type is null" classname="org.apache.jorphan.util.ConverterSpec" time="0.0"/>
+  <testcase name="convert anything to class java.lang.Object should downcast gracefully and give [anything]" classname="org.apache.jorphan.util.ConverterSpec" time="0.0"/>
+  <testcase name="convert 23 to class java.lang.Number should downcast gracefully and give [23]" classname="org.apache.jorphan.util.ConverterSpec" time="0.0"/>
+  <testcase name="convert anything to string should give [anything]" classname="org.apache.jorphan.util.ConverterSpec" time="0.001"/>
+  <testcase name="convert 23 to string should give [23]" classname="org.apache.jorphan.util.ConverterSpec" time="0.001"/>
+  <testcase name="convert 42 to string should give [42]" classname="org.apache.jorphan.util.ConverterSpec" time="0.001"/>
+  <testcase name="convert 64.0 to string should give [64.0]" classname="org.apache.jorphan.util.ConverterSpec" time="0.001"/>
+  <testcase name="convert 23.0 to number float should give number [23.0]" classname="org.apache.jorphan.util.ConverterSpec" time="0.006"/>
+  <testcase name="convert 42.0 to number class java.lang.Float should give number [42.0]" classname="org.apache.jorphan.util.ConverterSpec" time="0.0"/>
+  <testcase name="convert 42 to number class java.lang.Float should give number [42.0]" classname="org.apache.jorphan.util.ConverterSpec" time="0.001"/>
+  <testcase name="convert 23.0 to number double should give number [23.0]" classname="org.apache.jorphan.util.ConverterSpec" time="0.0"/>
+  <testcase name="convert 42.0 to number class java.lang.Double should give number [42.0]" classname="org.apache.jorphan.util.ConverterSpec" time="0.001"/>
+  <testcase name="convert 42 to number class java.lang.Double should give number [42.0]" classname="org.apache.jorphan.util.ConverterSpec" time="0.0"/>
+  <testcase name="convert 23 to number int should give number [23]" classname="org.apache.jorphan.util.ConverterSpec" time="0.0"/>
+  <testcase name="convert 42 to number class java.lang.Integer should give number [42]" classname="org.apache.jorphan.util.ConverterSpec" time="0.031"/>
+  <testcase name="Convert java.lang.String to Class gives class java.lang.String" classname="org.apache.jorphan.util.ConverterSpec" time="0.0"/>
+  <testcase name="Convert not.a.valid.class to Class gives not.a.valid.class" classname="org.apache.jorphan.util.ConverterSpec" time="0.001"/>
+  <testcase name="Convert '' to class java.lang.Boolean" classname="org.apache.jorphan.util.ConverterSpec" time="0.002"/>
+  <testcase name="Convert 'true' to class java.lang.Boolean" classname="org.apache.jorphan.util.ConverterSpec" time="0.003"/>
+  <testcase name="Convert to date from ''" classname="org.apache.jorphan.util.ConverterSpec" time="0.011"/>
+  <testcase name="Convert to date from 'Wed Dec 31 21:00:30 BRT 1969'" classname="org.apache.jorphan.util.ConverterSpec" time="0.0"/>
+  <testcase name="Convert to date from '20/08/19'" classname="org.apache.jorphan.util.ConverterSpec" time="0.001"/>
+  <testcase name="Convert to Calendar from ''" classname="org.apache.jorphan.util.ConverterSpec" time="0.033"/>
+  <testcase name="Convert to Calendar from 'Wed Dec 31 21:00:30 BRT 1969'" classname="org.apache.jorphan.util.ConverterSpec" time="0.0"/>
+  <testcase name="Convert to Calendar from '20/08/19'" classname="org.apache.jorphan.util.ConverterSpec" time="0.0"/>
+  <testcase name="line breaks should be replaced in 'null' to ''" classname="org.apache.jorphan.util.ConverterSpec" time="0.0"/>
+  <testcase name="line breaks should be replaced in 'bar' to 'bar'" classname="org.apache.jorphan.util.ConverterSpec" time="0.0"/>
+  <testcase name="line breaks should be replaced in '&#10;bar' to 'foobar'" classname="org.apache.jorphan.util.ConverterSpec" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

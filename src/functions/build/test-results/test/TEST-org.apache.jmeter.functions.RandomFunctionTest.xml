@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.functions.RandomFunctionTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:22:18" hostname="DESKTOP-E34GR96" time="0.068">
+  <properties/>
+  <testcase name="randomTest1()" classname="org.apache.jmeter.functions.RandomFunctionTest" time="0.036"/>
+  <testcase name="randomStringTest1()" classname="org.apache.jmeter.functions.RandomFunctionTest" time="0.03"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

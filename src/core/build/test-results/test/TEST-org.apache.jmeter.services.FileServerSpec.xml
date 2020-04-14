@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.services.FileServerSpec" tests="23" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:55" hostname="DESKTOP-E34GR96" time="0.265">
+  <properties/>
+  <testcase name="reading a non-existent file throws an exception" classname="org.apache.jmeter.services.FileServerSpec" time="0.043"/>
+  <testcase name="writing to a non-exisent file throws an exception" classname="org.apache.jmeter.services.FileServerSpec" time="0.003"/>
+  <testcase name="no files should be open following resetBase" classname="org.apache.jmeter.services.FileServerSpec" time="0.002"/>
+  <testcase name="closing unrecognised files are ignored" classname="org.apache.jmeter.services.FileServerSpec" time="0.003"/>
+  <testcase name="file is not opened until read from" classname="org.apache.jmeter.services.FileServerSpec" time="0.006"/>
+  <testcase name="reading lines loops to start once last line is read" classname="org.apache.jmeter.services.FileServerSpec" time="0.004"/>
+  <testcase name="cannot write to reserved file after reading" classname="org.apache.jmeter.services.FileServerSpec" time="0.002"/>
+  <testcase name="closing reserved file after reading resets" classname="org.apache.jmeter.services.FileServerSpec" time="0.003"/>
+  <testcase name="closeFiles() prevents reading of reserved file" classname="org.apache.jmeter.services.FileServerSpec" time="0.021"/>
+  <testcase name="baseDir is the defaultBasedir" classname="org.apache.jmeter.services.FileServerSpec" time="0.005"/>
+  <testcase name="setBaseDir doesn't error when no files are open" classname="org.apache.jmeter.services.FileServerSpec" time="0.007"/>
+  <testcase name="setBaseDir doesn't set base when passed a directory" classname="org.apache.jmeter.services.FileServerSpec" time="0.003"/>
+  <testcase name="cannot set baseDir when files are open" classname="org.apache.jmeter.services.FileServerSpec" time="0.003"/>
+  <testcase name="setting base to C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\core gives getBaseDirRelative == ." classname="org.apache.jmeter.services.FileServerSpec" time="0.001"/>
+  <testcase name="setting base to C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src gives getBaseDirRelative == ." classname="org.apache.jmeter.services.FileServerSpec" time="0.001"/>
+  <testcase name="setting base to C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\abcd\defg.jmx gives getBaseDirRelative == ." classname="org.apache.jmeter.services.FileServerSpec" time="0.002"/>
+  <testcase name="setting base to C:\Users\Carlos\Downloads\apache-jmeter-5.2.1_src\apache-jmeter-5.2.1\src\core\abcd\defg.jmx gives getBaseDirRelative == abcd" classname="org.apache.jmeter.services.FileServerSpec" time="0.001"/>
+  <testcase name="non-existent filename to reserveFile will throw exception" classname="org.apache.jmeter.services.FileServerSpec" time="0.034"/>
+  <testcase name="reserving a file with no header will throw an exception if the header is expected" classname="org.apache.jmeter.services.FileServerSpec" time="0.003"/>
+  <testcase name="resolvedFile returns absolute and relative files" classname="org.apache.jmeter.services.FileServerSpec" time="0.022"/>
+  <testcase name="resolvedFile returns relative files with BaseForScript set" classname="org.apache.jmeter.services.FileServerSpec" time="0.003"/>
+  <testcase name="skip bom at start of file and set correct encoding" classname="org.apache.jmeter.services.FileServerSpec" time="0.004"/>
+  <testcase name="fail to read a line from a directory" classname="org.apache.jmeter.services.FileServerSpec" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

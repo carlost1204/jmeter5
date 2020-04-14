@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.control.TestIfController" tests="8" skipped="1" failures="0" errors="0" timestamp="2020-04-13T04:21:43" hostname="DESKTOP-E34GR96" time="1.104">
+  <properties/>
+  <testcase name="shouldIgnoreEmptyLastLine()" classname="org.apache.jmeter.control.TestIfController" time="0.728"/>
+  <testcase name="testProcessingTrue()" classname="org.apache.jmeter.control.TestIfController" time="0.292"/>
+  <testcase name="testBug53768()" classname="org.apache.jmeter.control.TestIfController" time="0.013"/>
+  <testcase name="testProcessingTrueWithExpression()" classname="org.apache.jmeter.control.TestIfController" time="0.001"/>
+  <testcase name="testProcessing()" classname="org.apache.jmeter.control.TestIfController" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="testEvaluateAllChildrenWithSubController()" classname="org.apache.jmeter.control.TestIfController" time="0.019"/>
+  <testcase name="testStackOverflow()" classname="org.apache.jmeter.control.TestIfController" time="0.009"/>
+  <testcase name="testEvaluateAllChildrenWithoutSubController()" classname="org.apache.jmeter.control.TestIfController" time="0.032"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

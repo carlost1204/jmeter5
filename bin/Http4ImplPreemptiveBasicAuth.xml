@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample s="true" lb="HTTP-Request-WithNoMatchingAuth" rc="200" rm="OK" tn="Thread Group 1-1" dt="text">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample s="true" lb="HTTP-Request-WithNoMatchingAuth-0" rc="302" rm="Found" tn="Thread Group 1-1" dt="text"/>
+  <httpSample s="true" lb="HTTP-Request-WithNoMatchingAuth-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text"/>
+</httpSample>
+<httpSample s="true" lb="HTTP-Request-WithNoMatchingAuth" rc="200" rm="OK" tn="Thread Group 1-1" dt="text">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample s="true" lb="HTTP-Request-WithNoMatchingAuth-0" rc="302" rm="Found" tn="Thread Group 1-1" dt="text"/>
+  <httpSample s="true" lb="HTTP-Request-WithNoMatchingAuth-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text"/>
+</httpSample>
+<httpSample s="true" lb="HTTPS-Request-WithNoMatchingAuth" rc="200" rm="OK" tn="Thread Group 2-1" dt="text">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample s="true" lb="HTTPS-Request-WithNoMatchingAuth" rc="200" rm="OK" tn="Thread Group 2-1" dt="text">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample s="true" lb="HTTP-Request-NoAuthManager" rc="200" rm="OK" tn="Thread Group 3-1" dt="text">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample s="true" lb="HTTP-Request-NoAuthManager-0" rc="302" rm="Found" tn="Thread Group 3-1" dt="text"/>
+  <httpSample s="true" lb="HTTP-Request-NoAuthManager-1" rc="200" rm="OK" tn="Thread Group 3-1" dt="text"/>
+</httpSample>
+<httpSample s="true" lb="HTTP-Request-NoAuthManager" rc="200" rm="OK" tn="Thread Group 3-1" dt="text">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample s="true" lb="HTTP-Request-NoAuthManager-0" rc="302" rm="Found" tn="Thread Group 3-1" dt="text"/>
+  <httpSample s="true" lb="HTTP-Request-NoAuthManager-1" rc="200" rm="OK" tn="Thread Group 3-1" dt="text"/>
+</httpSample>
+<httpSample s="true" lb="HTTPS-Request-NoAuthManager" rc="200" rm="OK" tn="Thread Group 4-1" dt="text">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample s="true" lb="HTTPS-Request-NoAuthManager" rc="200" rm="OK" tn="Thread Group 4-1" dt="text">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample s="false" lb="HTTP-Request-WithMatchingBasicAuth" rc="200" rm="OK" tn="Thread Group 5-1" dt="text">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Request has no authorization header while it must have:Connection: keep-alive
+Host: jmeter.apache.org
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_241)
+</failureMessage>
+  </assertionResult>
+  <httpSample s="true" lb="HTTP-Request-WithMatchingBasicAuth-0" rc="302" rm="Found" tn="Thread Group 5-1" dt="text"/>
+  <httpSample s="true" lb="HTTP-Request-WithMatchingBasicAuth-1" rc="200" rm="OK" tn="Thread Group 5-1" dt="text"/>
+</httpSample>
+<httpSample s="false" lb="HTTP-Request-WithMatchingBasicAuth" rc="200" rm="OK" tn="Thread Group 5-1" dt="text">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Request has no authorization header while it must have:Connection: keep-alive
+Host: jmeter.apache.org
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_241)
+</failureMessage>
+  </assertionResult>
+  <httpSample s="true" lb="HTTP-Request-WithMatchingBasicAuth-0" rc="302" rm="Found" tn="Thread Group 5-1" dt="text"/>
+  <httpSample s="true" lb="HTTP-Request-WithMatchingBasicAuth-1" rc="200" rm="OK" tn="Thread Group 5-1" dt="text"/>
+</httpSample>
+<httpSample s="true" lb="HTTPS-Request-WithMatchingBasicAuth" rc="200" rm="OK" tn="Thread Group 6-1" dt="text">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample s="true" lb="HTTPS-Request-WithMatchingBasicAuth" rc="200" rm="OK" tn="Thread Group 6-1" dt="text">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+</testResults>

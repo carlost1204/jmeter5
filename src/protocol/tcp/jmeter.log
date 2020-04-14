@@ -1,0 +1,12 @@
+2020-04-13 01:23:06,869 WARN o.a.j.u.JMeterUtils: Exception 'null' occurred when fetching int property:'tcp.BinaryTCPClient.eomByte', defaulting to: 1000
+2020-04-13 01:23:06,908 WARN o.a.j.u.JMeterUtils: Exception 'null' occurred when fetching String property:'sampleresult.default.encoding', defaulting to: ISO-8859-1
+2020-04-13 01:23:06,909 WARN o.a.j.u.JMeterUtils: Exception 'null' occurred when fetching boolean property:'subresults.disable_renaming', defaulting to: false
+2020-04-13 01:23:06,910 WARN o.a.j.u.JMeterUtils: Exception 'null' occurred when fetching boolean property:'sampleresult.timestamp.start', defaulting to: false
+2020-04-13 01:23:06,910 WARN o.a.j.u.JMeterUtils: Exception 'null' occurred when fetching boolean property:'sampleresult.useNanoTime', defaulting to: true
+2020-04-13 01:23:06,914 WARN o.a.j.u.JMeterUtils: Exception 'null' occurred when fetching int property:'sampleresult.nanoThreadSleep', defaulting to: 5000
+2020-04-13 01:23:06,915 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are END times
+2020-04-13 01:23:06,915 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-04-13 01:23:06,916 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-04-13 01:23:06,916 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-04-13 01:23:06,936 WARN o.a.j.u.JMeterUtils: Exception 'null' occurred when fetching int property:'tcp.binarylength.prefix.length', defaulting to: 2
+2020-04-13 01:23:06,938 WARN o.a.j.u.JMeterUtils: Exception 'null' occurred when fetching int property:'tcp.binarylength.prefix.length', defaulting to: 2

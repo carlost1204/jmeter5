@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.timers.ConstantThroughputTimerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:47" hostname="DESKTOP-E34GR96" time="1.332">
+  <properties/>
+  <testcase name="testTimerBSH()" classname="org.apache.jmeter.timers.ConstantThroughputTimerTest" time="0.202"/>
+  <testcase name="testPoissonRandomTimerRangeLowerThan30()" classname="org.apache.jmeter.timers.ConstantThroughputTimerTest" time="0.005"/>
+  <testcase name="testConstantTimer()" classname="org.apache.jmeter.timers.ConstantThroughputTimerTest" time="0.0"/>
+  <testcase name="testUniformRandomTimer()" classname="org.apache.jmeter.timers.ConstantThroughputTimerTest" time="0.001"/>
+  <testcase name="testTimerJSR223Timer()" classname="org.apache.jmeter.timers.ConstantThroughputTimerTest" time="0.613"/>
+  <testcase name="testPoissonRandomTimerRangeHigherThan30()" classname="org.apache.jmeter.timers.ConstantThroughputTimerTest" time="0.0"/>
+  <testcase name="testTimer1()" classname="org.apache.jmeter.timers.ConstantThroughputTimerTest" time="0.506"/>
+  <testcase name="testTimer2()" classname="org.apache.jmeter.timers.ConstantThroughputTimerTest" time="0.001"/>
+  <testcase name="testTimer3()" classname="org.apache.jmeter.timers.ConstantThroughputTimerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

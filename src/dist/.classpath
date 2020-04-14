@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry kind="src" path="/bshclient"/>
+	<classpathentry kind="src" path="/functions"/>
+	<classpathentry kind="src" path="/http"/>
+	<classpathentry kind="src" path="/components"/>
+	<classpathentry kind="src" path="/bolt"/>
+	<classpathentry kind="src" path="/ftp"/>
+	<classpathentry kind="src" path="/java"/>
+	<classpathentry kind="src" path="/jdbc"/>
+	<classpathentry kind="src" path="/jms"/>
+	<classpathentry kind="src" path="/junit"/>
+	<classpathentry kind="src" path="/ldap"/>
+	<classpathentry kind="src" path="/mail"/>
+	<classpathentry kind="src" path="/mongodb"/>
+	<classpathentry kind="src" path="/native"/>
+	<classpathentry kind="src" path="/tcp"/>
+	<classpathentry kind="src" path="/core"/>
+	<classpathentry kind="src" path="/launcher"/>
+	<classpathentry kind="src" path="/jorphan"/>
+	<classpathentry kind="output" path="bin/default"/>
+</classpath>

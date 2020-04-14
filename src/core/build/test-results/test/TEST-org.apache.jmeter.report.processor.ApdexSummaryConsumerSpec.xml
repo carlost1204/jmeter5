@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.report.processor.ApdexSummaryConsumerSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:54" hostname="DESKTOP-E34GR96" time="0.143">
+  <properties/>
+  <testcase name="createDataResult contains apdex, satisfied, tolerated, key" classname="org.apache.jmeter.report.processor.ApdexSummaryConsumerSpec" time="0.143"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

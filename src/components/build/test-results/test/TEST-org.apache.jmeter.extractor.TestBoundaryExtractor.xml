@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.extractor.TestBoundaryExtractor" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:44" hostname="DESKTOP-E34GR96" time="0.023">
+  <properties/>
+  <testcase name="testNoBoundariesOneVariable()" classname="org.apache.jmeter.extractor.TestBoundaryExtractor" time="0.021"/>
+  <testcase name="testOnlyLeftBoundary()" classname="org.apache.jmeter.extractor.TestBoundaryExtractor" time="0.001"/>
+  <testcase name="testNoBoundaries()" classname="org.apache.jmeter.extractor.TestBoundaryExtractor" time="0.0"/>
+  <testcase name="testOnlyRightBoundary()" classname="org.apache.jmeter.extractor.TestBoundaryExtractor" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

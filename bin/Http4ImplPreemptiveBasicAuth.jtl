@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1578" lt="305" ts="1586753344847" s="true" lb="HTTP-Request-WithNoMatchingAuth" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="13429">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="308" lt="305" ts="1586753344847" s="true" lb="HTTP-Request-WithNoMatchingAuth-0" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="462">
+    <responseHeader class="java.lang.String">HTTP/1.1 302 Found
+Date: Mon, 13 Apr 2020 04:49:05 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Location: https://jmeter.apache.org/
+Content-Length: 210
+Keep-Alive: timeout=5, max=2000
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+</responseHeader>
+  </httpSample>
+  <httpSample t="1266" lt="1266" ts="1586753345159" s="true" lb="HTTP-Request-WithNoMatchingAuth-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="12967">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 13 Apr 2020 04:49:06 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Last-Modified: Wed, 06 Nov 2019 11:44:02 GMT
+ETag: &quot;314f-596ac10baaa4d&quot;
+Accept-Ranges: bytes
+Content-Length: 12623
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Keep-Alive: timeout=5, max=2000
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  </httpSample>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 13 Apr 2020 04:49:06 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Last-Modified: Wed, 06 Nov 2019 11:44:02 GMT
+ETag: &quot;314f-596ac10baaa4d&quot;
+Accept-Ranges: bytes
+Content-Length: 12623
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Keep-Alive: timeout=5, max=2000
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+</httpSample>
+<httpSample t="774" lt="253" ts="1586753347017" s="true" lb="HTTP-Request-WithNoMatchingAuth" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="13429">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="253" lt="253" ts="1586753347017" s="true" lb="HTTP-Request-WithNoMatchingAuth-0" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="462">
+    <responseHeader class="java.lang.String">HTTP/1.1 302 Found
+Date: Mon, 13 Apr 2020 04:49:07 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Location: https://jmeter.apache.org/
+Content-Length: 210
+Keep-Alive: timeout=5, max=2000
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+</responseHeader>
+  </httpSample>
+  <httpSample t="521" lt="521" ts="1586753347270" s="true" lb="HTTP-Request-WithNoMatchingAuth-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="12967">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 13 Apr 2020 04:49:08 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Last-Modified: Wed, 06 Nov 2019 11:44:02 GMT
+ETag: &quot;314f-596ac10baaa4d&quot;
+Accept-Ranges: bytes
+Content-Length: 12623
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Keep-Alive: timeout=5, max=2000
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  </httpSample>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 13 Apr 2020 04:49:08 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Last-Modified: Wed, 06 Nov 2019 11:44:02 GMT
+ETag: &quot;314f-596ac10baaa4d&quot;
+Accept-Ranges: bytes
+Content-Length: 12623
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Keep-Alive: timeout=5, max=2000
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+</httpSample>
+<httpSample t="518" lt="518" ts="1586753348004" s="true" lb="HTTPS-Request-WithNoMatchingAuth" rc="200" rm="OK" tn="Thread Group 2-1" dt="text" by="12967">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 13 Apr 2020 04:49:08 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Last-Modified: Wed, 06 Nov 2019 11:44:02 GMT
+ETag: &quot;314f-596ac10baaa4d&quot;
+Accept-Ranges: bytes
+Content-Length: 12623
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Keep-Alive: timeout=5, max=2000
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+</httpSample>
+<httpSample t="140" lt="140" ts="1586753348725" s="true" lb="HTTPS-Request-WithNoMatchingAuth" rc="200" rm="OK" tn="Thread Group 2-1" dt="text" by="12967">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 13 Apr 2020 04:49:09 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Last-Modified: Wed, 06 Nov 2019 11:44:02 GMT
+ETag: &quot;314f-596ac10baaa4d&quot;
+Accept-Ranges: bytes
+Content-Length: 12623
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Keep-Alive: timeout=5, max=1999
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+</httpSample>
+<httpSample t="760" lt="251" ts="1586753349069" s="true" lb="HTTP-Request-NoAuthManager" rc="200" rm="OK" tn="Thread Group 3-1" dt="text" by="13429">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="251" lt="251" ts="1586753349069" s="true" lb="HTTP-Request-NoAuthManager-0" rc="302" rm="Found" tn="Thread Group 3-1" dt="text" by="462">
+    <responseHeader class="java.lang.String">HTTP/1.1 302 Found
+Date: Mon, 13 Apr 2020 04:49:09 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Location: https://jmeter.apache.org/
+Content-Length: 210
+Keep-Alive: timeout=5, max=2000
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+</responseHeader>
+  </httpSample>
+  <httpSample t="508" lt="508" ts="1586753349321" s="true" lb="HTTP-Request-NoAuthManager-1" rc="200" rm="OK" tn="Thread Group 3-1" dt="text" by="12967">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 13 Apr 2020 04:49:10 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Last-Modified: Wed, 06 Nov 2019 11:44:02 GMT
+ETag: &quot;314f-596ac10baaa4d&quot;
+Accept-Ranges: bytes
+Content-Length: 12623
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Keep-Alive: timeout=5, max=2000
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  </httpSample>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 13 Apr 2020 04:49:10 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Last-Modified: Wed, 06 Nov 2019 11:44:02 GMT
+ETag: &quot;314f-596ac10baaa4d&quot;
+Accept-Ranges: bytes
+Content-Length: 12623
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Keep-Alive: timeout=5, max=2000
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+</httpSample>
+<httpSample t="252" lt="125" ts="1586753350032" s="true" lb="HTTP-Request-NoAuthManager" rc="200" rm="OK" tn="Thread Group 3-1" dt="text" by="13429">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="125" lt="125" ts="1586753350032" s="true" lb="HTTP-Request-NoAuthManager-0" rc="302" rm="Found" tn="Thread Group 3-1" dt="text" by="462">
+    <responseHeader class="java.lang.String">HTTP/1.1 302 Found
+Date: Mon, 13 Apr 2020 04:49:10 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Location: https://jmeter.apache.org/
+Content-Length: 210
+Keep-Alive: timeout=5, max=1999
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+</responseHeader>
+  </httpSample>
+  <httpSample t="127" lt="127" ts="1586753350157" s="true" lb="HTTP-Request-NoAuthManager-1" rc="200" rm="OK" tn="Thread Group 3-1" dt="text" by="12967">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 13 Apr 2020 04:49:10 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Last-Modified: Wed, 06 Nov 2019 11:44:02 GMT
+ETag: &quot;314f-596ac10baaa4d&quot;
+Accept-Ranges: bytes
+Content-Length: 12623
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Keep-Alive: timeout=5, max=1999
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  </httpSample>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 13 Apr 2020 04:49:10 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Last-Modified: Wed, 06 Nov 2019 11:44:02 GMT
+ETag: &quot;314f-596ac10baaa4d&quot;
+Accept-Ranges: bytes
+Content-Length: 12623
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Keep-Alive: timeout=5, max=1999
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+</httpSample>
+<httpSample t="509" lt="508" ts="1586753350491" s="true" lb="HTTPS-Request-NoAuthManager" rc="200" rm="OK" tn="Thread Group 4-1" dt="text" by="12967">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 13 Apr 2020 04:49:11 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Last-Modified: Wed, 06 Nov 2019 11:44:02 GMT
+ETag: &quot;314f-596ac10baaa4d&quot;
+Accept-Ranges: bytes
+Content-Length: 12623
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Keep-Alive: timeout=5, max=2000
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+</httpSample>
+<httpSample t="127" lt="127" ts="1586753351202" s="true" lb="HTTPS-Request-NoAuthManager" rc="200" rm="OK" tn="Thread Group 4-1" dt="text" by="12967">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 13 Apr 2020 04:49:11 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Last-Modified: Wed, 06 Nov 2019 11:44:02 GMT
+ETag: &quot;314f-596ac10baaa4d&quot;
+Accept-Ranges: bytes
+Content-Length: 12623
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Keep-Alive: timeout=5, max=1999
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+</httpSample>
+<httpSample t="780" lt="273" ts="1586753351537" s="false" lb="HTTP-Request-WithMatchingBasicAuth" rc="200" rm="OK" tn="Thread Group 5-1" dt="text" by="13429">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Request has no authorization header while it must have:Connection: keep-alive
+Host: jmeter.apache.org
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_241)
+</failureMessage>
+  </assertionResult>
+  <httpSample t="273" lt="273" ts="1586753351537" s="true" lb="HTTP-Request-WithMatchingBasicAuth-0" rc="302" rm="Found" tn="Thread Group 5-1" dt="text" by="462">
+    <responseHeader class="java.lang.String">HTTP/1.1 302 Found
+Date: Mon, 13 Apr 2020 04:49:12 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Location: https://jmeter.apache.org/
+Content-Length: 210
+Keep-Alive: timeout=5, max=2000
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+</responseHeader>
+  </httpSample>
+  <httpSample t="506" lt="506" ts="1586753351811" s="true" lb="HTTP-Request-WithMatchingBasicAuth-1" rc="200" rm="OK" tn="Thread Group 5-1" dt="text" by="12967">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 13 Apr 2020 04:49:12 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Last-Modified: Wed, 06 Nov 2019 11:44:02 GMT
+ETag: &quot;314f-596ac10baaa4d&quot;
+Accept-Ranges: bytes
+Content-Length: 12623
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Keep-Alive: timeout=5, max=2000
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  </httpSample>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 13 Apr 2020 04:49:12 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Last-Modified: Wed, 06 Nov 2019 11:44:02 GMT
+ETag: &quot;314f-596ac10baaa4d&quot;
+Accept-Ranges: bytes
+Content-Length: 12623
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Keep-Alive: timeout=5, max=2000
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+</httpSample>
+<httpSample t="252" lt="125" ts="1586753352528" s="false" lb="HTTP-Request-WithMatchingBasicAuth" rc="200" rm="OK" tn="Thread Group 5-1" dt="text" by="13429">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Request has no authorization header while it must have:Connection: keep-alive
+Host: jmeter.apache.org
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_241)
+</failureMessage>
+  </assertionResult>
+  <httpSample t="125" lt="125" ts="1586753352528" s="true" lb="HTTP-Request-WithMatchingBasicAuth-0" rc="302" rm="Found" tn="Thread Group 5-1" dt="text" by="462">
+    <responseHeader class="java.lang.String">HTTP/1.1 302 Found
+Date: Mon, 13 Apr 2020 04:49:13 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Location: https://jmeter.apache.org/
+Content-Length: 210
+Keep-Alive: timeout=5, max=1999
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+</responseHeader>
+  </httpSample>
+  <httpSample t="127" lt="127" ts="1586753352653" s="true" lb="HTTP-Request-WithMatchingBasicAuth-1" rc="200" rm="OK" tn="Thread Group 5-1" dt="text" by="12967">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 13 Apr 2020 04:49:13 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Last-Modified: Wed, 06 Nov 2019 11:44:02 GMT
+ETag: &quot;314f-596ac10baaa4d&quot;
+Accept-Ranges: bytes
+Content-Length: 12623
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Keep-Alive: timeout=5, max=1999
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  </httpSample>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 13 Apr 2020 04:49:13 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Last-Modified: Wed, 06 Nov 2019 11:44:02 GMT
+ETag: &quot;314f-596ac10baaa4d&quot;
+Accept-Ranges: bytes
+Content-Length: 12623
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Keep-Alive: timeout=5, max=1999
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+</httpSample>
+<httpSample t="511" lt="511" ts="1586753352988" s="true" lb="HTTPS-Request-WithMatchingBasicAuth" rc="200" rm="OK" tn="Thread Group 6-1" dt="text" by="12967">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 13 Apr 2020 04:49:13 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Last-Modified: Wed, 06 Nov 2019 11:44:02 GMT
+ETag: &quot;314f-596ac10baaa4d&quot;
+Accept-Ranges: bytes
+Content-Length: 12623
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Keep-Alive: timeout=5, max=2000
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+</httpSample>
+<httpSample t="130" lt="130" ts="1586753353701" s="true" lb="HTTPS-Request-WithMatchingBasicAuth" rc="200" rm="OK" tn="Thread Group 6-1" dt="text" by="12967">
+  <assertionResult>
+    <name>JSA_CheckAuthorization</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 13 Apr 2020 04:49:14 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Last-Modified: Wed, 06 Nov 2019 11:44:02 GMT
+ETag: &quot;314f-596ac10baaa4d&quot;
+Accept-Ranges: bytes
+Content-Length: 12623
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Keep-Alive: timeout=5, max=1999
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+</httpSample>
+
+</testResults>

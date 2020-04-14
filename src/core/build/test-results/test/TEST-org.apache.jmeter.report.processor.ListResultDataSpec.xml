@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.report.processor.ListResultDataSpec" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:54" hostname="DESKTOP-E34GR96" time="0.125">
+  <properties/>
+  <testcase name="a new ListResultData is empty" classname="org.apache.jmeter.report.processor.ListResultDataSpec" time="0.001"/>
+  <testcase name="addResult adds null to list and returns true" classname="org.apache.jmeter.report.processor.ListResultDataSpec" time="0.001"/>
+  <testcase name="addResult adds Mock for type 'ResultData' to list and returns true" classname="org.apache.jmeter.report.processor.ListResultDataSpec" time="0.002"/>
+  <testcase name="addResult adds ListResultData [items=[]] to list and returns true" classname="org.apache.jmeter.report.processor.ListResultDataSpec" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.protocol.http.modifier.TestURLRewritingModifier" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:22:55" hostname="DESKTOP-E34GR96" time="0.022">
+  <properties/>
+  <testcase name="testGrabSessionId2()" classname="org.apache.jmeter.protocol.http.modifier.TestURLRewritingModifier" time="0.004"/>
+  <testcase name="testGrabSessionId3()" classname="org.apache.jmeter.protocol.http.modifier.TestURLRewritingModifier" time="0.0"/>
+  <testcase name="testGrabSessionId4()" classname="org.apache.jmeter.protocol.http.modifier.TestURLRewritingModifier" time="0.001"/>
+  <testcase name="testGrabSessionId5()" classname="org.apache.jmeter.protocol.http.modifier.TestURLRewritingModifier" time="0.001"/>
+  <testcase name="testGrabSessionId6()" classname="org.apache.jmeter.protocol.http.modifier.TestURLRewritingModifier" time="0.001"/>
+  <testcase name="testGrabSessionId7()" classname="org.apache.jmeter.protocol.http.modifier.TestURLRewritingModifier" time="0.001"/>
+  <testcase name="testGrabSessionIdURLinJSON()" classname="org.apache.jmeter.protocol.http.modifier.TestURLRewritingModifier" time="0.001"/>
+  <testcase name="testCache()" classname="org.apache.jmeter.protocol.http.modifier.TestURLRewritingModifier" time="0.001"/>
+  <testcase name="testBug61314()" classname="org.apache.jmeter.protocol.http.modifier.TestURLRewritingModifier" time="0.001"/>
+  <testcase name="testGrabSessionIdFromForm()" classname="org.apache.jmeter.protocol.http.modifier.TestURLRewritingModifier" time="0.001"/>
+  <testcase name="testGrabSessionIdFromXMLNonPatExtension()" classname="org.apache.jmeter.protocol.http.modifier.TestURLRewritingModifier" time="0.0"/>
+  <testcase name="testBug61314WithQuestionMark()" classname="org.apache.jmeter.protocol.http.modifier.TestURLRewritingModifier" time="0.0"/>
+  <testcase name="testGrabSessionIdEndedInTab()" classname="org.apache.jmeter.protocol.http.modifier.TestURLRewritingModifier" time="0.001"/>
+  <testcase name="testGrabSessionId()" classname="org.apache.jmeter.protocol.http.modifier.TestURLRewritingModifier" time="0.001"/>
+  <testcase name="testNoCache()" classname="org.apache.jmeter.protocol.http.modifier.TestURLRewritingModifier" time="0.0"/>
+  <testcase name="testNonHTTPSampler()" classname="org.apache.jmeter.protocol.http.modifier.TestURLRewritingModifier" time="0.001"/>
+  <testcase name="testGrabSessionIdFromXMLPatExtension()" classname="org.apache.jmeter.protocol.http.modifier.TestURLRewritingModifier" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

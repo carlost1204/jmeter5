@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.functions.TestDigestFunction" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:22:18" hostname="DESKTOP-E34GR96" time="0.026">
+  <properties/>
+  <testcase name="testSha1()" classname="org.apache.jmeter.functions.TestDigestFunction" time="0.011"/>
+  <testcase name="testSha1Variable()" classname="org.apache.jmeter.functions.TestDigestFunction" time="0.001"/>
+  <testcase name="testSha512WithSaltAndSpace()" classname="org.apache.jmeter.functions.TestDigestFunction" time="0.006"/>
+  <testcase name="testSha512Error()" classname="org.apache.jmeter.functions.TestDigestFunction" time="0.001"/>
+  <testcase name="testParameterCount512()" classname="org.apache.jmeter.functions.TestDigestFunction" time="0.0"/>
+  <testcase name="testSha512Variable()" classname="org.apache.jmeter.functions.TestDigestFunction" time="0.0"/>
+  <testcase name="testSha512WithSalt()" classname="org.apache.jmeter.functions.TestDigestFunction" time="0.0"/>
+  <testcase name="testSha1Error()" classname="org.apache.jmeter.functions.TestDigestFunction" time="0.001"/>
+  <testcase name="testSha512WithSaltAndSpaceInBoth()" classname="org.apache.jmeter.functions.TestDigestFunction" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

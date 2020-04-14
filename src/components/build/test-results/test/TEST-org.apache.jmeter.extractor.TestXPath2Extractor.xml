@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.extractor.TestXPath2Extractor" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:45" hostname="DESKTOP-E34GR96" time="0.191">
+  <properties/>
+  <testcase name="testWithoutNamespace()" classname="org.apache.jmeter.extractor.TestXPath2Extractor" time="0.003"/>
+  <testcase name="testVariableExtraction()" classname="org.apache.jmeter.extractor.TestXPath2Extractor" time="0.058"/>
+  <testcase name="testScope()" classname="org.apache.jmeter.extractor.TestXPath2Extractor" time="0.014"/>
+  <testcase name="testAttributeExtraction()" classname="org.apache.jmeter.extractor.TestXPath2Extractor" time="0.105"/>
+  <testcase name="testWithNamespace()" classname="org.apache.jmeter.extractor.TestXPath2Extractor" time="0.003"/>
+  <testcase name="testWithNamespaces()" classname="org.apache.jmeter.extractor.TestXPath2Extractor" time="0.005"/>
+  <testcase name="testPreviousResultIsEmpty()" classname="org.apache.jmeter.extractor.TestXPath2Extractor" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

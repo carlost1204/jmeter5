@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.protocol.jms.sampler.render.BinaryMessageRendererTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:22:46" hostname="DESKTOP-E34GR96" time="0.518">
+  <properties/>
+  <testcase name="getValueFromFile_withOneVar(JMeterVariables)" classname="org.apache.jmeter.protocol.jms.sampler.render.BinaryMessageRendererTest" time="0.099"/>
+  <testcase name="readNonExistingContent()" classname="org.apache.jmeter.protocol.jms.sampler.render.BinaryMessageRendererTest" time="0.023"/>
+  <testcase name="getValueFromFile_withInvalidEncoding()" classname="org.apache.jmeter.protocol.jms.sampler.render.BinaryMessageRendererTest" time="0.061"/>
+  <testcase name="getValueFromText()" classname="org.apache.jmeter.protocol.jms.sampler.render.BinaryMessageRendererTest" time="0.032"/>
+  <testcase name="testGetContent(String)[1]" classname="org.apache.jmeter.protocol.jms.sampler.render.BinaryMessageRendererTest" time="0.06"/>
+  <testcase name="testGetContent(String)[2]" classname="org.apache.jmeter.protocol.jms.sampler.render.BinaryMessageRendererTest" time="0.005"/>
+  <testcase name="getValueFromFile_inRawMode()" classname="org.apache.jmeter.protocol.jms.sampler.render.BinaryMessageRendererTest" time="0.037"/>
+  <testcase name="getValueFromFile_withNoVar()" classname="org.apache.jmeter.protocol.jms.sampler.render.BinaryMessageRendererTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.timers.SyncTimerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:49" hostname="DESKTOP-E34GR96" time="0.621">
+  <properties/>
+  <testcase name="testTimerWithShorterScheduledEndpointThanTimeoutForTimer()" classname="org.apache.jmeter.timers.SyncTimerTest" time="0.212"/>
+  <testcase name="testTimerWithScheduledEndpoint()" classname="org.apache.jmeter.timers.SyncTimerTest" time="0.201"/>
+  <testcase name="testTimerWithInvalidTimeout()" classname="org.apache.jmeter.timers.SyncTimerTest" time="0.002"/>
+  <testcase name="testTimerWithLongerScheduledEndpointThanTimeoutForTimer()" classname="org.apache.jmeter.timers.SyncTimerTest" time="0.205"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

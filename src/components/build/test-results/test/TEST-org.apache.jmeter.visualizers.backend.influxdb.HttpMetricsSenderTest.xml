@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.visualizers.backend.influxdb.HttpMetricsSenderTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:52" hostname="DESKTOP-E34GR96" time="1.401">
+  <properties/>
+  <testcase name="checkTokenPresentInHeader(WireMockServer)" classname="org.apache.jmeter.visualizers.backend.influxdb.HttpMetricsSenderTest" time="1.077"/>
+  <testcase name="emptyTokenIsNotSentAsAuthorizedHeader(String, WireMockServer)[1]" classname="org.apache.jmeter.visualizers.backend.influxdb.HttpMetricsSenderTest" time="0.068"/>
+  <testcase name="emptyTokenIsNotSentAsAuthorizedHeader(String, WireMockServer)[2]" classname="org.apache.jmeter.visualizers.backend.influxdb.HttpMetricsSenderTest" time="0.042"/>
+  <testcase name="emptyTokenIsNotSentAsAuthorizedHeader(String, WireMockServer)[3]" classname="org.apache.jmeter.visualizers.backend.influxdb.HttpMetricsSenderTest" time="0.077"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

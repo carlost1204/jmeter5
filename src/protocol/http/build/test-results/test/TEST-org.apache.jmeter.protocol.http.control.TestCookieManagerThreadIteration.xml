@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.protocol.http.control.TestCookieManagerThreadIteration" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:22:54" hostname="DESKTOP-E34GR96" time="0.109">
+  <properties/>
+  <testcase name="testCookieManagerWhenThreadIterationIsNewUser()" classname="org.apache.jmeter.protocol.http.control.TestCookieManagerThreadIteration" time="0.024"/>
+  <testcase name="testCookieManagerWhenThreadIterationIsSameUser()" classname="org.apache.jmeter.protocol.http.control.TestCookieManagerThreadIteration" time="0.0"/>
+  <testcase name="testJmeterVariableCookieWhenThreadIterationIsSameUser()" classname="org.apache.jmeter.protocol.http.control.TestCookieManagerThreadIteration" time="0.044"/>
+  <testcase name="testJmeterVariableCookieWhenThreadIterationIsANewUser()" classname="org.apache.jmeter.protocol.http.control.TestCookieManagerThreadIteration" time="0.038"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

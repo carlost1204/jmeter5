@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.extractor.TestXPathExtractor" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:21:45" hostname="DESKTOP-E34GR96" time="0.211">
+  <properties/>
+  <testcase name="testVariableExtraction()" classname="org.apache.jmeter.extractor.TestXPathExtractor" time="0.162"/>
+  <testcase name="testScope()" classname="org.apache.jmeter.extractor.TestXPathExtractor" time="0.017"/>
+  <testcase name="testAttributeExtraction()" classname="org.apache.jmeter.extractor.TestXPathExtractor" time="0.02"/>
+  <testcase name="testInvalidDocument()" classname="org.apache.jmeter.extractor.TestXPathExtractor" time="0.007"/>
+  <testcase name="testInvalidXpath()" classname="org.apache.jmeter.extractor.TestXPathExtractor" time="0.002"/>
+  <testcase name="testNonXmlDocument()" classname="org.apache.jmeter.extractor.TestXPathExtractor" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

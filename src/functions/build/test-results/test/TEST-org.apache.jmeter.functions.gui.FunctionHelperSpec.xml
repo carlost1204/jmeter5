@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.functions.gui.FunctionHelperSpec" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:22:25" hostname="DESKTOP-E34GR96" time="1.198">
+  <properties/>
+  <testcase name="construct correct call string for parameters []" classname="org.apache.jmeter.functions.gui.FunctionHelperSpec" time="0.811"/>
+  <testcase name="construct correct call string for parameters [a]" classname="org.apache.jmeter.functions.gui.FunctionHelperSpec" time="0.076"/>
+  <testcase name="construct correct call string for parameters [a,b]" classname="org.apache.jmeter.functions.gui.FunctionHelperSpec" time="0.274"/>
+  <testcase name="construct correct call string for parameters [a,b,c]" classname="org.apache.jmeter.functions.gui.FunctionHelperSpec" time="0.002"/>
+  <testcase name="construct correct call string for parameters [a, b]" classname="org.apache.jmeter.functions.gui.FunctionHelperSpec" time="0.003"/>
+  <testcase name="construct correct call string for parameters [a,b, c]" classname="org.apache.jmeter.functions.gui.FunctionHelperSpec" time="0.005"/>
+  <testcase name="construct correct call string for parameters [\${f(a,b)}]" classname="org.apache.jmeter.functions.gui.FunctionHelperSpec" time="0.002"/>
+  <testcase name="construct correct call string for parameters [${f(a,b)},c,${g(d,e)}, h]" classname="org.apache.jmeter.functions.gui.FunctionHelperSpec" time="0.002"/>
+  <testcase name="construct correct call string for parameters [a,${f(b,${g(c,d)},e)},f, h]" classname="org.apache.jmeter.functions.gui.FunctionHelperSpec" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

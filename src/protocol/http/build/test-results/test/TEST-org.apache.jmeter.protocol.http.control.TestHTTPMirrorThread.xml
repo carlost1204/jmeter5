@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.jmeter.protocol.http.control.TestHTTPMirrorThread" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-04-13T04:23:02" hostname="DESKTOP-E34GR96" time="0.846">
+  <properties/>
+  <testcase name="testQueryStatus" classname="org.apache.jmeter.protocol.http.control.TestHTTPMirrorThread" time="0.017"/>
+  <testcase name="testQueryRedirect" classname="org.apache.jmeter.protocol.http.control.TestHTTPMirrorThread" time="0.003"/>
+  <testcase name="testResponseLength" classname="org.apache.jmeter.protocol.http.control.TestHTTPMirrorThread" time="0.006"/>
+  <testcase name="testSleep" classname="org.apache.jmeter.protocol.http.control.TestHTTPMirrorThread" time="0.203"/>
+  <testcase name="testHeaders" classname="org.apache.jmeter.protocol.http.control.TestHTTPMirrorThread" time="0.002"/>
+  <testcase name="testPostRequest" classname="org.apache.jmeter.protocol.http.control.TestHTTPMirrorThread" time="0.406"/>
+  <testcase name="testCookie" classname="org.apache.jmeter.protocol.http.control.TestHTTPMirrorThread" time="0.003"/>
+  <testcase name="testGetRequest" classname="org.apache.jmeter.protocol.http.control.TestHTTPMirrorThread" time="0.203"/>
+  <testcase name="testStatus" classname="org.apache.jmeter.protocol.http.control.TestHTTPMirrorThread" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
